@@ -1,0 +1,252 @@
+% ---------------------------------------------------
+% ----- Main document of the template
+% ----- for Bachelor-, Master thesis and class papers
+% ---------------------------------------------------
+%  Created by Claudia Müller-Birn on 2012-08-17. (last update 2015-10-20)
+%  Freie Universität Berlin, Institute of Computer Science, Human Centered Computing (HCC).
+%
+\documentclass[pdftex,a4paper,11pt]{scrartcl}
+%
+%---------------------------------------------------
+%----- Packages
+%---------------------------------------------------
+%
+\usepackage[T1]{fontenc}
+\usepackage[utf8]{inputenc}
+%\usepackage[ngerman]{babel}
+\usepackage[english]{babel}
+\usepackage{ae}
+\usepackage{bibgerm}
+
+\usepackage{fancyref}
+\usepackage{fancyhdr} % Define simple headings
+\usepackage{xcolor}
+\usepackage{url}
+\usepackage{verbatim}
+%
+\usepackage[pdftex]{graphicx}
+\usepackage{hyperref} % turn all your internal references into hyperlinks
+%\usepackage[pdfstartview=FitH,pdftitle={<<Titel der Arbeit>>}, pdfauthor={<<Autor>>}, pdfkeywords={<<Schlüsselwörter>>}, pdfsubject={<<Titel der Arbeit>>}, colorlinks=true, linkcolor=black, citecolor=black, urlcolor=black, hypertexnames=false, bookmarksnumbered=true, bookmarksopen=true, pdfborder = {0 0 0}]{hyperref}
+%
+% a new command is defined that allows to include an empty page when needed
+\newcommand{\blankpage}{
+\newpage
+\thispagestyle{empty}
+\mbox{}
+\newpage
+}
+%
+%---------------------------------------------------
+%----- PDF and document setup
+%---------------------------------------------------
+%
+\hypersetup{
+	pdftitle={<My title>},  % please, add the title of your thesis
+    pdfauthor={<Author>},   % please, add your name
+    pdfsubject={<<Bachelor/Master thesis>, Institute of Computer Science, Freie Universität Berlin>}, % please, select the type of this document
+    pdfstartview={FitH},    % fits the width of the page to the window
+    pdfnewwindow=true, 		% links in new window
+    colorlinks=false,  		% false: boxed links; true: colored links
+    linkcolor=red,          % color of internal links
+    citecolor=green,        % color of links to bibliography
+    filecolor=magenta,      % color of file links
+    urlcolor=cyan           % color of external links
+}
+%
+%---------------------------------------------------
+%----- Settings for word separation
+%---------------------------------------------------
+% Help for separation (from package babel, section 22)):
+% In german package the following hints are additionally available:
+% "- = an explicit hyphen sign, allowing hyphenation in the rest of the word
+% "| = disable ligature at this position. (e.g., Schaf"|fell)
+% "~ = for a compound word mark without a breakpoint (e.g., bergauf und "~ab)
+% "= = for a compound word mark with a breakpoint, allowing hyphenation in the composing words
+% "" = like "-, but producing no hyphen sign (e.g., und/""oder)
+%
+% Describe separation hints here:
+\hyphenation{
+% Pro-to-koll-in-stan-zen
+% Ma-na-ge-ment  Netz-werk-ele-men-ten
+% Netz-werk Netz-werk-re-ser-vie-rung
+% Netz-werk-adap-ter Fein-ju-stier-ung
+% Da-ten-strom-spe-zi-fi-ka-tion Pa-ket-rumpf
+% Kon-troll-in-stanz
+}
+
+%---------------------------------------------------
+%----- Settings for title page
+%---------------------------------------------------
+
+\begin{titlepage}
+
+\title{\includegraphics[width=0.6\textwidth]{pics/FU_logo.pdf}\\
+{\small <Bachelor-/Masterarbeit> am Institut für Informatik der Freien Universität Berlin}\\
+{\small Human-Centered Computing (HCC)}\\
+[6ex]
+{\LARGE<Titel der Arbeit>}\\
+{\normalsize-- Exposé --}}
+
+\author{
+{\emph{\normalsize<Ihr Vor- und Nachname>}}\\
+{\normalsize Matrikelnummer: <IhreMatrikelnummer>}\\
+{\normalsize <ihreemail@adresse.de>}\\\\
+{\normalsize Betreuerin: Prof. Dr. C. Müller-Birn}
+}
+
+\date{\normalsize Berlin, <Datum>}
+
+\end{titlepage}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% The content part of this document starts here! %%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\begin{document}
+
+\maketitle
+
+\thispagestyle{empty}  % remove page number on the title page
+
+\blankpage
+
+%---------------------------------------------------
+%----- Content part
+%---------------------------------------------------
+
+\setcounter{page}{1} % page number is set to "1" otherwise it would be "3"
+
+\section{Struktur des Exposé}
+\begin{comment}
+Im Folgenden habe ich Ihnen eine generelle Struktur für ein Exposé vorgegeben. Jeder Abschnitt wird mit Fragen eingeleitet, welchen den Inhalt des Abschnitts abdecken. Ich gebe Ihnen, wenn erforderlich, noch einige Erläuterungen. Bitte beachten Sie, dass das Layout dieser Vorlage doppelseitig angelegt ist und daher auch der Ausdruck doppelseitig erfolgen sollte. Zur Erinnerung: ein Exposé umfasst ungefähr sechs bis zehn Seiten abhängig vom Thema. Der Inhalt des Exposé bildet dann das Grundgerüst für die schriftliche Ausarbeitung Ihrer Masterarbeit. Erst nach Abnahme des Exposé sollten Sie Ihre Masterarbeit anmelden.
+\end{comment}
+
+\subsection{Motivation der Arbeit}
+\noindent \emph{In welchem Bereich/Themenfeld bewegt sich Ihre geplante Arbeit? }
+
+Algorithmic governance: interplay between technology and society in complex socio-technical systems;
+- what is?
+
+(Background: Wikipedia/Wikimedia universe <-- where?)
+
+\begin{comment}
+\begin{itemize}
+	\item Erläutern Sie kurz, in welchem Themenbereich Ihre Arbeit angesiedelt ist. Wo werden Sie einen Beitrag leisten?
+	\item Das Ziel sollte es sein, den groben Kontext Ihrer Arbeit darzustellen.
+\end{itemize}
+\end{comment}
+
+\subsection{Thematische Einordnung der Arbeit}
+\noindent \emph{Welche Literatur ist relevant für diese Arbeit?}
+\begin{comment}
+\begin{itemize}
+	\item Nutzen Sie Ihr vom Betreuer/in bereitgestellt Literatur und (!) nutzen Sie Google Scholar für Ihre weitere Recherche. Das HCC.lab forscht insbesondere in den Bereichen Computer Supported Cooperative Work and Human-Computer Interaction. Daher sind zwei Konferenzen mit den dazugehörigen Publikationen von besonderen Interesse: CHI (Annual SIGCHI Conference: Human Factors in Computing Systems) und CSCW (Computer Supported Cooperative Work). Diese Konferenzen und noch einige mehr können auf der SIGCHI Webseite gefunden werden \cite{sigchi:2015}. Die dazugehörigen Publikationen in der Digital Library von ACM \cite{acm:2015}.
+	\item Bitte geben Sie die relevanten Inhalte der Artikel kurz wieder.
+	\item Das Ausarbeiten von ausgewählter Literatur bzw. verwandten Arbeiten hilft Ihnen, Ihre Ziele im nachfolgenden Abschnitt klarer zu definieren. Daher ist eine Auseinandersetzung mit der Literatur von Beginn an notwendig, auch wenn es zu diesem Zeitpunkt noch nicht erschöpfend erfolgen kann.
+\end{itemize}
+\end{comment}
+
+\cite{DanaherEtAl2017}
+- background for algorithmic governance, overview topics, methods, .. for research
+
+\cite{Geiger2017}
+- describes complex interplay between social and technical systems in governing wikipedia
+
+\cite{GeiHal2017}
+
+\subsection{Zielstellung}
+\noindent \emph{Welche Ziele werden mit der Arbeit verfolgt? Welche zentralen Fragen lassen sich daraus ableiten?}
+\begin{comment}
+\begin{itemize}
+	\item Die Ziele sollten so spezifisch wie möglich sein. Das hilft Ihnen im Verlauf der Umsetzung zu prüfen, ob Sie Ihre Ziele erreichen konnten. Bitte achten Sie darauf, dass die gesetzten Ziele realistisch sind und das Sie in der Lage sind, das erfolgreiche Erreichen dieser Ziele im Bereich Evaluation zu prüfen.
+\end{itemize}
+\end{comment}
+
+\begin{itemize}
+  \item browse Wikipedia (which language versions? are bots language specific?); identify interesting bots
+  \item study source code
+  \item try talking to bots' developers
+  \item study documentation/discussions around the bots development
+\end{itemize}
+
+\subsection{Geplante Vorgehensweise}
+\noindent \emph{Welche einzelnen Aktivitäten müssen umgesetzt werden, um die Fragen zu beantworten und das Ziel der Arbeit zu erreichen?}
+\begin{comment}
+\begin{itemize}
+	\item Aus den Fragen (vorheriger Abschnitt) können Sie dann Aktivitäten ableiten, die Ihnen helfen, Ihre weitere Arbeit zu strukturieren.
+\end{itemize}
+\end{comment}
+
+\subsection{Methodische Umsetzung}
+\noindent \emph{Mit welcher Methodik setzen Sie die einzelnen Aktivitäten in Ihrer Arbeit um?}
+Bereich: Data/Community Analytics <--- me?
+
+\begin{comment}
+\begin{itemize}
+	\item Eine wesentliche Grundlage der wissenschaftlichen Arbeit, ist die systematische Anwendung einer Forschungsmethode. Die erlaubt Ihnen ein systematisches Vorgehen bei Ihrer Masterarbeit.
+	\item Am HCC.lab werden Arbeiten in den folgenden Bereichen geschrieben:
+	       \begin{itemize}
+				\item Information Retrieval
+				\item Recommender Systeme
+				\item Data/Community Analytics <--- me?
+				\item Information Visualization
+				\item Interaction Design
+			\end{itemize}
+	\item Sie sollten in der Lage sein, Ihre Arbeit in einen dieser Bereiche einzuordnen. Falls Sie Probleme dabei haben, wenden Sie sich bitte an Ihre/n Betreuer/in.
+	\item Für die Auswahl der geeigneten Forschungsmethode verweise ich Sie auf zwei Bücher hin, die eine Zusammenstellung der verfügbaren Methoden und ihre praktischen Anwendung im Bereich Human-Computer Interaction diskutieren \cite{olson2014ways}, \cite{lazar2010research}. Beide Bücher sind bei Frau Prof. Müller-Birn verfügbar. Einzelne Artikel könnten Ihnen auch in einer elektronischen Version zur Verfügung gestellt werden.
+\end{itemize}
+\end{comment}
+
+\subsection{Technische Umsetzung}
+\noindent \emph{Mit welchen softwaretechnischen Hilfsmitteln soll die Arbeit realisiert werden?}
+\begin{comment}
+\begin{itemize}
+	\item Selbstverständlich können Sie an der Stelle noch nicht alles wissen, aber Sie sollen sich hier bereits einen guten Überblick verschaffen.
+\end{itemize}
+\end{comment}
+
+hm; no idea?
+What I'm doing:
+
+* talking to people <-- evtl record conversations;
+* review source code
+* read documentation; forums; mailing lists;
+
+\subsection{Erster Terminplan}
+\noindent  \emph{Wie ist der generelle Zeitplan der Arbeit? }
+
+Aug 2018 - Sep 2018 : identify interesting bots; literature review
+Oct 2018 - March 2019
+
+\begin{comment}
+\begin{itemize}
+	\item Sie sollten bereits wissen, wann Sie fertig sein wollen und von dort mit der Rückwärtsterminierung starten.
+	\item Ihre Arbeit ist ein Projekt, daher planen Sie es auch wie eines. Nutzen Sie zur Visualisierung ein Gantt-Chart.
+\end{itemize}
+\end{comment}
+
+%---------------------------------------------------
+%----- Bibliography
+%---------------------------------------------------
+\phantomsection
+\addcontentsline{toc}{chapter}{Literatur}   % headline
+\bibliographystyle{alpha}  % citation style
+\bibliography{bibliography} % bib file
+
+
+%---------------------------------------------------
+%----- Appendices
+%---------------------------------------------------
+\begin{comment}
+\newpage
+\section*{Anhang I: Auszug Prüfungsordnung Master}
+\label{sec:master}
+
+\begin{figure}[!h]
+	\centering
+		\includegraphics[width=0.8\textwidth]{pics/Auszug_Master_Pruefungsordnung.pdf}
+	\caption{Auszug Prüfungsordnung Master}
+\end{figure}
+\end{comment}
+
+\end{document}
