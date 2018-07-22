@@ -1,5 +1,57 @@
+# Policies
+
+* Bot Approval Group
+* Bot policy
+* Requests for approval
+
+* Criteria for speedy deletion - deletion policies
+* Non-free content criteria - legal policy
+* IP block exemption - procedural policy
+* Canvassing - behavioral guideline
+* Redirect - edit guideline
+* Manual of style - content guideline
+
 # EN
 
 * AnomieBot
   --> scans talk pages for {{request edit}} and collects edit requests in a centralized queue to be reviewed by more senior users?
   --> something with edit disputes as well
+
+* HagermanBot: sign unsigned discussion entries
+* ClueBot NG
+
+* Rambot: created 30 000 stub articles on towns in the US filled with basic statistics from census data
+
+Categories for discussion
+* AvicBot - moves pages from category A to category B, if merge request exist on CfD, or removes a category entirely if the request is to empty the category
+* ArmbrustBot
+* CrismonBot
+* Cydebot - all provide similar functionality to AvicBot (bots are often redundant)
+
+* Pywikibot: framework
+
+Articles for Deletion
+* CSDWarnBot
+* Android_mouse_bot
+* Erwin85Bot - opt-in mechanisms for notifying authors that their articles have been nominated for deletion
+
+Featured Articles
+* Jmax Bot: daily count of existing featured articles
+* UcuchaBot: generates a list of FA not shown on the main page yet
+
+Administrator intervention against vandalism
+* Mr.Z-bot - notify directly users for users that are most likely spammers
+* HBC AIV helperbot - u.a. ensure listed vandals and spammers are not already blocked
+
+Manual of Style
+* DyceBot - replace hyphens in page titles with en-dashes (stated in MoS)
+* WildBot - checks the wiki markup of new articles for links to dabbling pages
+* MetsBot - format dates according to MoS
+
+Criteria for speedy deletion
+* Orphaned_image_deletion_bot
+
+Image use policy
+* OrphanBot - removes images from articles tagged with unknown source or unknown copyright status
+* ImageTaggingBot - tags images ^; notifies uploader if problems are encountered
+* SmackBot
