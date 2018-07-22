@@ -1,3 +1,4 @@
+\cite{DanaherEtAl2017}
 # Danaher, J., Hogan, M. J., Noone, C., Kennedy, R., Behan, A., De Paor, A., et al. (2017). Algorithmic governance: Developing a research agenda through the power of collective intelligence:. Big Data & Society, 4(2), 205395171772655. http://doi.org/10.1177/2053951717726554
 
 
@@ -21,3 +22,54 @@ Checkout Kitchin research framework (p.5)
 related problems by analysing existing code and cate-
 gorizing errors that emerge from this code according to
 whether they are ‘technical’ or ‘legal’ in nature."
+
+===================================================
+
+\cite{MuellerBirn2014}
+
+Aim:
+- overview on various edit types bots carry out
+- general reasons why wikipedia community uses bots
+- how they organise machine tasks to provide a sustainable service
+
+2 main groups:
+- community services : create reports
+- guidelines/policies : adding templates to pages
+
+up-to-date (when?) 3 categories of research on bots:
+- used as a tool for collecting data
+- installed to reach Wikipedia editors in an automatic way to influence their
+  editing behaviour
+- bots considered as noise on the data/not important for further analysis
+
+check Geiger(2009):
+"how a weak but preexisting social norm was controversially reified into a
+technological actor"
+
+2010: 40% of newcommers' contributions rejected based on automatic tools <---
+counter productive in engaging new contributors
+
+attitudes towards bot usage changed over time
+at the beginning: "One of Wikipedia's rules to consider: avoid using bots"
+with time: more and more acceptance; beaurocracy; difficult for new commers to
+engage
+
+Overview: Bot Approval Group, Bot Policy, Requests for approval
+
+methodology: select all approved task requests: try to infer bots' tasks from
+them
+
+statistics:
+%TODO: check graphic in color
+- proportion of bot edits grow copared to human editors
+
+- bots edits are of support/maintenance nature
+- a lot, compared to human edits, no content;
+- at some point excluded from recent changes logs (is that so? today, they are
+  there again, I'd say)
+
+"Bots as community servers and rule enforcers"
+"Bots are responsible that existing guidelines and policies are enforced at a
+large scale."
+
+%TODO: copy categories + conclusions from section 3.3
