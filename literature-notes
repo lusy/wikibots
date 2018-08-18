@@ -79,4 +79,57 @@ large scale."
 
 \cite{Geiger2017}
 
+situated in critical algorithmic studies, critical data studies,
+discusses issues in fairness, accountability and transparency
 
+(algorithmic) governance
+gatekeeping
+
+"the organizational culture of Wikipedia is deeply intertwined with various data-driven algorithmic
+systems, which Wikipedians rely on to help manage and govern the ‘‘anyone can edit’’ encyclopedia at a massive
+scale."
+"These bots, scripts, tools, plugins, and dashboards make Wikipedia more efficient for those who know how
+to work with them, but like all organizational culture, newcomers must learn them if they want to fully participate."
+
+Beschreibt die Prozesse für 2 verschiedene, oft vorkommende Edit-Abläufe:
+* editting (your own) page on Wikipedia: Conflict of interest requests --> newcommers werden hier abgeschreckt
+* Speedy Deletion
+
+"But I realized that the more interesting question is why I had so internalized this socio-techni-
+cal assemblage and the values it enacts." // People internalise the way a system works and stop questioning it!!
+
+"They are deeply imbued with particular values, prin-
+ciples, norms, and ideals, and learning them is not
+just about technical competency, but also socialization
+into a complex organizational culture"
+
+Some descriptive statistics:
+"In the English-language Wikipedia, 22 of the 25 most active editors (by
+number of edits) are bot accounts, and July 2017, they made about 20% of all edits to encyclopedia articles."
+--> vgl: https://quarry.wmflabs.org/query/20703
+
+What does it take to be a Wikipedian:
+"when that partici-
+pation requires not only learning Wikipedia-specific
+jargon, norms, style guides, and rules, but also learning
+how to interact with all the bots and power tools"
+
+"Wikipedia demonstrates how the issues in and around
+algorithmic systems are as much social as they are tech-
+nical, going far beyond the opacities that arise around
+proprietary source code. My argument extends Burrell’s
+(2016) discussion of three different forms of opacity in
+machine learning: intentional secrecy (proprietary
+source code), technical literacy (such as learning to
+read code), and opacities inherent in machine learning
+(such as issues of interpretability). To these forms, I add
+another: the opacities in learning a particular institu-
+tional or organizational culture that is supported by
+algorithmic systems."
+// source is open, but who can actually read it? and is willing to invest the time and energy in order to hold the system accountable?
+// vgl auch Gedanke von Claudia: "Wikipedia is spannend, weil wir daran das erforschen können, was wir an Facebook nicht können. Und weil die ein Abbild der Gesellschaft im Kleinen ist."
+// vgl auch Web Science def: observe micro behaviours in order to study macro phenomenons (governance, ..)
+
+Def "algorithmic": "as involving encoded proced-
+ures, which are typically—but not exclusively—compu-
+tationally implemented."
