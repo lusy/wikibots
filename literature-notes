@@ -246,3 +246,52 @@ assisted tools are inherently difficult to deal with, but
 rather because bots support more complex kinds of gov-
 ernance practices in Wikipedia, and complex govern-
 ance practices are difficult for newcomers."
+
+=========================================
+
+\cite{GeiHal2017}
+
+replicate + refute earlier results (of the paper "Even Good Bots Fight")
+methods: combi: qualitative + quantitative
+trace ethnography
+operationalise conflict!
+distinguish conflict from non-conflict in bot reverts
+compile data set + meta data
+background: wikipedia researchers + long-time contributors
+findings: overwhelming majority of the reverts are routine collaborative work between bots
+metrics: time between reverts; number of reverts per article for the same bot pair
+classify patterns in edit summaries
+
+research question: "to what extent are bot-bot reverts
+in Wikipedia genuine conflicts where disagreements about how Wikipedia ought to be written were
+embedded in opposing bot codebases, versus cases like Shoreland’s Addbot that reflect the opposite?"
+
+Out of context Addbot's edits seem like a bot ran rampart.
+In context it's been tons of useful work.
+Do not tear data out of context!
+
+"The EGBF paper operationalized
+bot-bot conflict through reverts, which is when one user account undoes another user account’s
+edit." // Geiger+Halfaker operationalisieren den Begriff differenzierter
+
+Literature Review: bis dato Arbeiten zu bot feedback; und criticism about driving away newcomers; aber keine Forschung hat Revert Wars thematisiert;
+
+conflict: not necessary negative, but can be generative and stimulating (avoid filter bubbles) if resolved in a respectful manner
+
+Conflict typology:
+task conflict
+process conflict
+relationship conflict
+
+Types of reverts:
+identity revert: "as bringing it back to an exact previous state"
+partial revert: "part of an edit is removed"
+declarative revert: "when a user leaves a note in an edit summary stating that they are reverting the edit (matching “rv” or “revert”)."
+
+"They note a single revert is not indicative
+of conflict, but repeated back-and-forth reverts are indicative of an edit war"
+
+"The “Bold, Revert, and Discuss”
+cycle (one of the most widely-cited essays [31] in English Wikipedia) states that editors ought to
+be bold in making changes, feel free to revert others’ changes that they find unacceptable, then
+discuss the issue" // kommt mir iwie netter vor, erst zu diskutieren, dann zu löschen
