@@ -91,7 +91,7 @@ scale."
 "These bots, scripts, tools, plugins, and dashboards make Wikipedia more efficient for those who know how
 to work with them, but like all organizational culture, newcomers must learn them if they want to fully participate."
 
-Beschreibt die Prozesse für 2 verschiedene, oft vorkommende Edit-Abläufe:
+Beschreibt die Prozesse für 2 verschiedene, oft vorkommende Edit-Abläufe, mit den Bots und automatischen Tools, die diese unterstützen
 * editting (your own) page on Wikipedia: Conflict of interest requests --> newcommers werden hier abgeschreckt
 * Speedy Deletion
 
@@ -133,3 +133,116 @@ algorithmic systems."
 Def "algorithmic": "as involving encoded proced-
 ures, which are typically—but not exclusively—compu-
 tationally implemented."
+
+"Like all algorithmic systems, the ones I studied in
+Wikipedia were designed, developed, and deployed by
+people." //all developers are human and all humans make mistakes^^
+
+"As Gillespie (2014) argues: ‘‘A socio-
+logical analysis must not conceive of algorithms as
+abstract, technical achievements, but must unpack the
+warm human and institutional choices that lie behind
+these cold mechanisms.’’"
+
+Seaver (2013: 9–10) Def Algorithmic System:
+"It is not the algorithm, narrowly defined, that has
+sociocultural effects, but algorithmic systems — intri-
+cate, dynamic arrangements of people and code. . .
+When we realize that we are not talking about algo-
+rithms in the technical sense, but rather algorithmic
+systems of which code strictu sensu is only a part,
+their defining features reverse: instead of formality,
+rigidity, and consistency, we find flux, revisability,
+and negotiation."
+"In this context, I ask: for whom are algorithmic systems
+(and the organizations that rely on them) formal, rigid,
+and consistent, and for whom are they in flux, revisable,
+and negotiable?" //Vorwissen, das die Menschen mitbringen, ist wichtig!
+
+2nd level digital divide:
+"who had
+the knowledge, skills, and sense of empowerment to use
+the Internet in ways that further engaged, empowered,
+and benefitted their lives." nach Hargittai 2002
+
+Everything's open:
+"We must look at more than the fact that partici-
+pation in Wikipedia is open to the public; that the infra-
+structure supporting it is open sourced; and that the
+community’s policies, procedures, and norms are docu-
+mented in thousands and thousands of pages of text."
+
+BUT
+"We must also look at what kind of skills, knowledge, and
+investment is required to fully and successfully partici-
+pate,"
+
+speaks of deletion of substandard encyclopedi articles: Where and how are the standards defined? Who defines them?
+
+"article about a
+website fails the A7 criteria in the CSD process,
+which demands that articles ‘‘credibly indicate the
+importance or significance of the subject.’’ (A majority
+of speedy deleted articles are tagged with templates
+containing A7 rationales (Geiger and Ford, 2011).)"
+// ich finde dieses Kriterium ist äußerst mit Vorsicht zu genießen, da die Tür weit aufgemacht wird für Sexismus, Rassismus und andere Arten von Diskriminierung von Inhalten, die der Mehrheit von white dudes nicht passen
+
+"Yet I had a
+second, subtler motivation, hoping that in properly
+demonstrating correct usage of such a template within
+the established workflow of this process, I would be
+made legible as a Wikipedian who knew the CSD pro-
+cess and should be given some more leeway—unlike
+most of the people who were creating articles that
+they were deleting." //making use of the brocode^^
+
+"Such systems do not eliminate the need for human
+labor, but instead transform the kind of work that
+takes place,"
+
+erwähnt auch Abschrecken von newcommers
+
+"As
+Seaver (2013) notes with his critiques of various ‘‘crit-
+ical algorithms studies’’ literature, it is easy to slip into
+a mode of analysis where social factors are contextua-
+lized, while infrastructure remain static and determin-
+ing. Such an approach ‘‘keeps algorithms themselves
+untouched, objective stones tossed about in a roily
+social stream’’ (10)."
+
+"the algorithmic
+systems themselves are constructed, negotiated, contex-
+tualized, and differently interpreted and enacted." // aber wer kann beim Aushandeln mitmachen?
+
+"Wikipedia’s computational infrastructure is
+also designed and governed in a relatively open
+manner by the project’s volunteer community of edi-
+tors (Forte and Bruckman , 2008; Gilbert and Zachry,
+2015; Kennedy, 2010), unlike most of the automated
+systems that are increasingly prevalent in digitally
+mediated environments." //jup. und selbst da blick man nicht durch
+
+Requirements/Expectations for bot developers:
+"bot developers are generally expected to be responsive
+to reasonable requests and concerns from the
+community."
+
+"Wikipedians discuss and debate
+about what kinds of bots should exist in the project,"
+
+"one of the
+paradoxes of openness is that it can take substantial
+time, energy, investment, and resources to fully take
+advantage of all the materials released"
+
+Veterans vs newcomers:
+"they make it far easier for veteran Wikipedians to
+engage in the kind of specific, complex, multifacted
+work involved in the governance of Wikipedia. This
+can make it far more difficult for newcomers to partici-
+pate—not necessarily because bots, algorithms, or
+assisted tools are inherently difficult to deal with, but
+rather because bots support more complex kinds of gov-
+ernance practices in Wikipedia, and complex govern-
+ance practices are difficult for newcomers."
