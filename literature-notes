@@ -375,3 +375,37 @@ median time to revert: 62 days; and it's been rising over time
 
 "decreased incidents of bot-bot conflict as various language
 versions gained stronger and more established bot policies and bot approval venues."
+
+"93.2% of
+bot-bot reverts were not reciprocated or other-
+wise responded to by the bot that was reverted."
+"our max was
+two cases where the same two bots each re-
+verted the other 41 times on the same article."
+
+"What kinds of work are these bots were doing?
+What were the bot’s developers intending the bots to do?"
+
+"Trace
+ethnography is not “lurker ethnography” done by someone who never interviews or participates in
+a community."
+trace literacy --> get to know the community; know how to participate in it
+
+What are the traces they looked at:
+- start with the revision ID of an identified bot-bot revert
+- follow other traces to find other contextual information, such as:
+  - what was changed in the revert,
+  - the bot developer’s summary of what the bot was doing at the time,
+  - the other edits that both bots had made,
+  - both bots’ Requests for Approval before the Bot Approvals Group (if any),
+  - the various talk pages where Wikipedians would raise and resolve the conflict (in cases of genuine conflict),
+  - and the various policies and guidelines in force at the time of the revert.
+
+"we know what does not get captured in logs and revision histories;"
+
+thick description of different prototypical cases:
+Non-conflicts:
+- fixing double redirects (see paper for details):
+  - task carried on by a lot of bots (code for that also provided in the pywikibot framework)
+- removing interwiki links? (since lining between language version got exported to Wikidata)
+- updating of article notification templates (page is protected from editing or has some issue; template removed when the issue is resolved)
