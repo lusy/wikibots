@@ -23,6 +23,7 @@
   https://en.wikipedia.org/wiki/Wikipedia:Bots/Requests_for_approval
   https://bg.wikipedia.org/wiki/%D0%A3%D0%B8%D0%BA%D0%B8%D0%BF%D0%B5%D0%B4%D0%B8%D1%8F:%D0%91%D0%BE%D1%82/%D0%97%D0%B0%D1%8F%D0%B2%D0%BA%D0%B8
   https://en.wikipedia.org/wiki/Wikipedia:Bots/Requests_for_approval/Addbot_32
+  * Arbitration Committee ("adjudicating complex and high-level disputes, including several cases around bots")
 
 * Identifying bots: (siehe auch https://github.com/halfak/are-the-bots-really-fighting)
   * bot user group
@@ -34,7 +35,15 @@
   --> which of them are active in the community area?
   --> look at process of approval (request for the bot, discussion, etc.)
 
+* Interesting/tricky bots angucken (bes. im Community-Bereich aktiv):
+  * ClueBot NG + HBC AIV Helperbots(fighting vandalism)
+  * Mr.Z-bot: notifies users directly for users that are most likely spammers
+  * HagermanBot: signs unsigned discussion entries
+  * AvicBot: moves pages from category A to category B, if merge request exist on Categories for Discussion, or removes a category entirely if the request is to empty the category
+  * CSDWarnBot: warns users when pages they've created are nominated for speedy deletion
+
 * pywikibot, other bot development frameworks
+  https://www.mediawiki.org/wiki/Manual:Pywikibot/redirect.py
 
 * Propose own bot and go through the whole process
 
@@ -46,6 +55,10 @@
 * chapters/structure --> sich an GeiHal2017 orientieren
 
 * What about the bots that tweet about anonyme edits from inside the Parliament/Congress/Bundestag?
+
+* Define Research question!
+  * "What kinds of work are these bots were doing?
+  * What were the bot’s developers intending the bots to do?" vgl GeiHal2017
 
 # Notes on tools/stuff that may be useful
 
