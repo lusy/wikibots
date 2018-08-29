@@ -535,3 +535,117 @@ broadly Aristotelean approach: the identification of
 social data problems, the design of critical frameworks
 for addressing social data problems, and the applica-
 tion of social solutions to increase data literacy."
+
+=================================================
+
+\cite{GeiRib2011}
+
+Def
+"combines the richness of participant-observation
+with the wealth of data in logs so as to reconstruct
+patterns and practices of users in distributed
+sociotechnical systems."
+
+"integrates and extends
+a number of longstanding techniques across the social
+and computational sciences"
+
+"exploits the proliferation of
+documents and documentary traces"
+
+"traces not only
+document events but are also used by participants
+themselves to coordinate and render accountable many
+activities"
+
+"heterogeneous data – which include transaction logs,
+version histories, institutional records, conversation
+transcripts, and source code"
+"allowing us to retroactively reconstruct specific actions
+at a fine level of granularity"
+
+"sets of
+such documentary traces can then be assembled into
+rich narratives of interaction"
+
+"turn thin documentary traces into
+“thick descriptions” [10] of actors and events"
+
+extends/assembles various existing methods to counteract the common concern with the limitations of traditional single-sited participant observation
+
+"explicitly or implicitly,
+documentary traces are the primary mechanism in
+which users themselves know their distributed
+communities and act within them."
+
+"traces can only
+be fully inverted through an ethnographic
+understanding of the activities, people, systems, and
+technologies which contribute to their production."
+
+traditional ethnographic observation is costly and inpractical in distributed settings (and may miss phenomena that occur between sites)
+
+Strategies for studying distributed systems:
+- study documentary practices
+"trails of correspondence
+between scientists [24,26], the manuals and handbooks
+that seek to harmonize practice within corporate
+organizations [22], trading records in global financial
+markets[15], or the standards and protocols that guide
+technology development and use [5]"
+"often the case even in
+traditional co-located organizations."
+
+following workers around (traditional ethnographic observation) -> following documents around
+"following these documents as they travel
+across the site, asking how, where, and by whom they
+are produced, edited, revised or filed"
+"By focusing
+on the lifecycles of these documents, the researcher is
+able to follow workflows of activity across an
+organization"
+
+- participant-generated ethnography
+"having participants capture their own qualitative data"
+user-authored diaries or journals
+plus: "balance the need for rich,
+thick, and highly-empirical data with the practical
+limitations involved with performing ethnographic
+fieldwork,"
+minus: "on its
+own, it lacks the same holistic understanding gained
+though ethnographic observation."
+"there may be entire swaths
+of activity that are left of these logs (whether because
+they are embarrassing for recorders, or simply
+considered too mundane to be worth mentioning)."
+
+- historical and archival ethnography (vgl Challenger Bsp)
+
+- Multi-Sited Ethnography (‘Follow the Actors’)
+"especially around topics like
+globalization, migration, nationalism, and other issues
+that are not typically present in a single site."
+"researcher travels to multiple sites"
+NOTE: "visiting multiple
+sites is intended not to give the ethnographer more
+cases, (i.e. for a broader or more representative
+sample), but to expand a single case beyond its
+immediate location."
+ANT: follow the actors (mobile populations, materials, stories, ideologies, metaphors, conflicts)
+
+- Strategically-situated ethnography
+be at the right place at the right time
+"Instead of
+trying 'to be everywhere' in a large network
+[...]
+deliberately situated themselves at the particular times
+and places where a system is being designed,
+constructed, contested, broken, or repaired [25]."
+"identify the most relevant, important, or
+representative local sites in a distributed organization,"
+
+"In studies of science, focusing on a moment of
+controversy can be particularly revealing, as expert
+participants pick apart each others’ evidence and
+arguments [7]."
