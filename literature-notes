@@ -540,6 +540,10 @@ tion of social solutions to increase data literacy."
 
 \cite{GeiRib2011}
 
+- Define/Present the methodology of trace ethnography
+- Illustrate it using the case study of tracing/banning vandals on wikipedia
+
+
 Def
 "combines the richness of participant-observation
 with the wealth of data in logs so as to reconstruct
@@ -649,3 +653,60 @@ representative local sites in a distributed organization,"
 controversy can be particularly revealing, as expert
 participants pick apart each others’ evidence and
 arguments [7]."
+
+"most heavily relying logs
+and records that are automatically generated in digital
+environments"
+--> especially in software platforms for the production and distribution of content, zB:
+"blogs, wikis, source code repositories,
+content management systems (CMS),"
+
+"who changed what to a
+document and when, so that an author can
+reconstruct the history of a document"
+
+Understanding codes!
+"Embedded within these
+archival records of who changed what and when, we
+found a wide variety of codes that we initially passed
+over, seeing them as either incomprehensible markup
+or relatively non-descriptive"
+"Like all codes, they are
+sociotechnical, and therefore their meaning can only be
+understood in relation to their broader cultural and
+computational systems"
+
+Critique:
+"it only can observe what the system
+or platform records, which are always incomplete."
+
+Case study: tracing vandals in Wikipedia
+Inverting the traces:
+- collect MediaWiki revision data (for a single user)
+- analyse edit-summary fields (used sparsely by humans, but extensively by bots and tools in a regular fashion)
+- pay special attention to markers (codes): observe users that leave them, try to understand when are they used
+- look around for documentation
+- try out the semi-automatic software tools for themselves to get a understanding of what tasks they perform and what traces are generated along the way (these tools generally prescript narrow paths of action)
+
+"Becoming familiar with traces requires both
+immersion in the average, everyday affairs of a group
+and active investigation of otherwise backgrounded
+actors, software, and data."
+
+the tools (Huggle and Twinkle) issue warnings with automatically decided warning level
+
+1) initial ethnographic fieldwork: identify routines
+2) locate/aggregate via documentary analysis
+3) assemble a chain of activity
+
+bsp of Wikipedians inverting the traces themselves for a disciplinary hearing about a conflict between admins
+
+Limitations:
+"the methodology described does
+not tell us how the organizational routine of four
+escalating warning was originally developed and
+implemented, or the attitudes vandal fighters hold
+towards it."
+
+Concerns:
+- ethical: breaching privacy via thickening the traces; no possibility for informed consent
