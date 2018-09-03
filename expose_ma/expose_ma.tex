@@ -113,7 +113,6 @@
 %---------------------------------------------------
 %----- Content part
 %---------------------------------------------------
-
 \setcounter{page}{1} % page number is set to "1" otherwise it would be "3"
 
 \section{Struktur des Exposé}
@@ -121,11 +120,27 @@
 Im Folgenden habe ich Ihnen eine generelle Struktur für ein Exposé vorgegeben. Jeder Abschnitt wird mit Fragen eingeleitet, welchen den Inhalt des Abschnitts abdecken. Ich gebe Ihnen, wenn erforderlich, noch einige Erläuterungen. Bitte beachten Sie, dass das Layout dieser Vorlage doppelseitig angelegt ist und daher auch der Ausdruck doppelseitig erfolgen sollte. Zur Erinnerung: ein Exposé umfasst ungefähr sechs bis zehn Seiten abhängig vom Thema. Der Inhalt des Exposé bildet dann das Grundgerüst für die schriftliche Ausarbeitung Ihrer Masterarbeit. Erst nach Abnahme des Exposé sollten Sie Ihre Masterarbeit anmelden.
 \end{comment}
 
-\subsection{Motivation der Arbeit}
+\subsection{Motivation}
 \noindent \emph{In welchem Bereich/Themenfeld bewegt sich Ihre geplante Arbeit? }
 
-Algorithmic governance: interplay between technology and society in complex socio-technical systems;
-- what is?
+This thesis is ubiquited in the field of human-computer interaction and more
+specifically, algorithmic governance and socio-technical systems.
+Algorithmic governance refers to the notion of algorithms used in governance systems, (partially) taking decisions concerning humans.
+As Danaher et al. put it ``algorithms are increasingly being used to nudge, bias, guide, provoke, control, manipulate and constrain human behaviour''~\cite{DanaherEtAl2017}.
+%TODO: def!
+
+Wikipedia is a complex socio-technical system where mechanisms of algorithmic governance are increasingly used.
+Since its birth in 2001, the free online encyclopedia has come to comprise nearly 300 different language versions and 48,364,313 articles (\url{https://en.wikipedia.org/wiki/List_of_Wikipedias}, accessed: July 23rd, 2018).
+Today, nearly 2000 bots exist in Wikipedia.
+Wikipedia is an open socio-technical system that allows us to study phenomena we can't observe
+elsewhere.
+How are automated system influencing the Wikipedian community?
+Are there bots that implement hard rules ("Code is law") that nobody intended
+to have but end up in there anyway?
+
+=============================
+
+
 
 (Background: Wikipedia/Wikimedia universe <-- where?)
 - scope: which languages am I going to analyse?
@@ -133,6 +148,10 @@ Algorithmic governance: interplay between technology and society in complex soci
   implement?
 - socio-technical system
 - MediaWiki
+
+
+Bots
+- def
 
 \begin{comment}
 \begin{itemize}
@@ -153,26 +172,133 @@ Algorithmic governance: interplay between technology and society in complex soci
 
 \cite{DanaherEtAl2017}
 - background for algorithmic governance, overview topics, methods, .. for research
+  Danaher et al.~\cite{DanaherEtAl2017} propose a framework for researching algorithmic governance systems, their effectiveness and legitimacy.
+  They provide a ``detailed map of key research themes, questions and methods'' which seems to be particularly useful for the current research proposal.
+
 
 \cite{Geiger2017}
 - describes complex interplay between social and technical systems in governing wikipedia
 
+  Geiger~\cite{Geiger2017} is just one example of numerous works on the societal implications of bots and algorithmic systems in general in Wikipedia's ecosystem.
+  It addresses various aspects and consequences of algorithmic governance within Wikipedia, such as driving away newcomers through an overly complicated bureaucratic process which results in Wikipedia turning into a gated community where only experienced users can fully participate.
+
 \cite{GeiHal2017}
+- replication study of the paper "Even Good Bots Fight" that raised the theory
+  that bots get into conflict/revert wars constantly
+- introduce a very detailed open methodology, have a github and .. repository
+  with their whole data processing pipeline
+- operationalise conflict
+- generate a data set
+- analyse edit summaries, cluster bot activities accordingly
+- 2 metrics: # of bot-pair-per-article reverts, time between reverts
+- quantitative and qualitative analysis
+- conclusion: only 0.something of all bot-bot-reverts are genuine conflict
+
+trace ethnography: "seek to understand data in the context it has within a community of practice," "data to be a starting point for further contextualization and interpretation,"
+operationalise conflict!
+distinguish conflict from non-conflict in bot reverts
+compile data set + meta data
+background: wikipedia researchers + long-time contributors
+findings: overwhelming majority of the reverts are routine collaborative work between bots
+metrics: time between reverts; number of reverts per article for the same bot pair
+in addition: in depth analysis of random examples from different parts of the statistical distribution of the metrics
+classify patterns in edit summaries
+
+research question: "to what extent are bot-bot reverts
+in Wikipedia genuine conflicts where disagreements about how Wikipedia ought to be written were
+embedded in opposing bot codebases, versus cases like Shoreland’s Addbot that reflect the opposite?"
+
+\cite{GeiRib2011}
+- define the trace ethnography methodology
+- traditional ethnography + heavy reliance on documentation
+- related to ANT
+- idea: reverse documentation traces to reconstruct the story (what happened
+  there)
+- ethical concerns: people couldn't have consented in an informed manner
+
+
+\cite{HalKitRied2011}
+Don't bite the newbies
+
+\cite{IliadisRusso2016}
+Introduction to Critical Data Studies + Literature Overview
+
+big data is not neutral but instead consists of already constituted assemblages
+
+"Data are a form of power."
+"lack of data is another indication of power, the power
+not to look or to remain hidden (Brunton and
+Nissenbaum, 2015; Flyverbom et al., 2016)."
+"foreground data’s power structures"
+
+current research trends: positivist approach (and not critical)
+
+Def:
+"critical approach to Big Data
+investigates meta-theoretical modes of conversation
+and styles of scientific thinking"
+"analyzes the
+ground upon which positivistic Big Data science stands."
+"How do Big Data inflect and interact with society,"
+"CDS has emerged as a loose knit group of
+frameworks, proposals, questions, and mani-
+festos"
+"What need to be established are long-term projects"
+
+\cite{MuellerBirn2014}
+  Mueller-Birn et al.~\cite{MuellerBirn2014} provide an overview over different tasks bots in Wikipedia carry out.
+  They categorise these in two main groups: community services and guidelines/policies.
+  The authors also suggest that attitudes towards bots have changed over time, and acceptance of bots has gradually grown.
 
 \subsection{Zielstellung}
 \noindent \emph{Welche Ziele werden mit der Arbeit verfolgt? Welche zentralen Fragen lassen sich daraus ableiten?}
+Thema 1: Analyzing the translation of social into algorithmic rules
+
+Our goal is to better understand how existing social rules are 
+translated into algorithm manifestations by analyzing the existing 
+source code but also by interviewing existing developers of bots and 
+understanding their considerations when developing the bot code. We plan 
+to unpack the “full socio-technical assemblage of algorithms” (Kitchin, 
+2017). Based on the data collected, we identify all bots that disclose 
+their code on their user pages in a first step (accountability), and 
+select those that specifically active in the community sphere. We will 
+identify up to five exemplary cases and will contextualize these cases 
+by data from additional sources such as community pages (e.g. Village 
+Pump). Furthermore, we plan to contact the operators of these bots (most 
+often equals with the developers of the respective bot) and carry out 
+interviews to better understand their motivations for developing the 
+bots. Besides analyzing concrete examples of bots, we will also analyze 
+the bot development frameworks (e.g. pywikibot) and compare the provided 
+features with the bot activities. Our aim is to understanding the 
+availability of specific source code might have influenced the influence 
+of bots in the Wikimedia community. The result of this work packages is 
+a better understanding of how social rules are translated into 
+algorithmic rules, and a set of recommendations of ethical code 
+guidelines for algorithmic systems that can be for example included in 
+existing bot development frameworks. Furthermore, these ethical code 
+guidelines can even be used in other platform or can inform platform 
+design principles.
+
+* Define Research question!
+  * "What kinds of work are these bots were doing?
+  * What were the bot’s developers intending the bots to do?" vgl GeiHal2017
 \begin{comment}
 \begin{itemize}
 	\item Die Ziele sollten so spezifisch wie möglich sein. Das hilft Ihnen im Verlauf der Umsetzung zu prüfen, ob Sie Ihre Ziele erreichen konnten. Bitte achten Sie darauf, dass die gesetzten Ziele realistisch sind und das Sie in der Lage sind, das erfolgreiche Erreichen dieser Ziele im Bereich Evaluation zu prüfen.
 \end{itemize}
 \end{comment}
 
+
+Ziele sind (lookup Claudia's email):
 \begin{itemize}
-  \item browse Wikipedia (which language versions? are bots language specific?); identify interesting bots
-  \item study source code
-  \item try talking to bots' developers
-  \item study documentation/discussions around the bots development
+    \item evaluate bot community engagement
+    \item analyse bot frameworks (pywikibot) and their influence on prevalence of automated tasks
+    \item guideline: ethical bot implementation
+
 \end{itemize}
+The purpose of this research is to determine whether bots end up implementing guidelines and norms in a distorted way, effectively creating constraints that no one wanted to have to begin with and turning them into the status quo.
+
+
 
 \subsection{Geplante Vorgehensweise}
 \noindent \emph{Welche einzelnen Aktivitäten müssen umgesetzt werden, um die Fragen zu beantworten und das Ziel der Arbeit zu erreichen?}
@@ -182,9 +308,41 @@ Algorithmic governance: interplay between technology and society in complex soci
 \end{itemize}
 \end{comment}
 
+Das sind keine Ziele, sondern Methodologie!
+\begin{itemize}
+  \item browse Wikipedia (which language versions? are bots language specific?); identify interesting bots
+  \item study source code
+  \item try talking to bots' developers
+  \item study documentation/discussions around the bots development
+\end{itemize}
+
+\begin{itemize}
+  \item \emph{document analysis}: review relevant guidelines and policies such as the Manual of style and Criteria for speedy deletion, as well as policies for creating bots such as the Bot policy and the Requests for approval
+  \item \emph{code analysis}: analyse code of previously selected bots that seem to contradict a policy or a guideline in some way
+  \item \emph{interviews with bot developers}: talk to bot developers about their intentions and approach when they conceived and implemented a particular bot
+\end{itemize}
+
+\emph{Bots}
+
+This is a preliminary list of potentially interesting bots to look into:
+
+\begin{itemize}
+  \item HagermanBot (EN, there's a german equivalent): signs unsigned discussion entries -- there was a
+  controversy, because some users specifically didn't want their posts to be
+  signed
+  \item AvicBot: moves pages from category A to category B, if merge request exist on Categories for Discussion, or removes a category entirely if the request is to empty the category
+  \item CSDWarnBot: warns users when pages they've created are nominated for speedy deletion
+  \item Mr.Z-bot: notifies users directly for users that are most likely spammers
+  \item ClueBot NG + HBC AIV Helperbots(fighting vandalism)
+  \item What about the bots that tweet about anonyme edits from inside the Parliament/Congress/Bundestag?
+\end{itemize}
+
 \subsection{Methodische Umsetzung}
 \noindent \emph{Mit welcher Methodik setzen Sie die einzelnen Aktivitäten in Ihrer Arbeit um?}
 Bereich: Data/Community Analytics <--- me?
+
+trace ethnography
+ANT
 
 \begin{comment}
 \begin{itemize}
@@ -216,12 +374,25 @@ What I'm doing:
 * talking to people <-- evtl record conversations;
 * review source code
 * read documentation; forums; mailing lists;
+* charts: python; R; gnuplot
+* assemble bot users
+* assemble bot users for which the source code is published
+--> python
+* propose own bot and go through all the process
 
+* methods:
+  * begin with some data dumps, but ask additional questions and supplement with different data and methods
+  * cooking data with care: take note of data science pipeline: explore the data, compile it carefully, ask critical questions
+  * interviews with bot developers: understanding their considerations when developing the bot code.
 \subsection{Erster Terminplan}
 \noindent  \emph{Wie ist der generelle Zeitplan der Arbeit? }
 
-Aug 2018 - Sep 2018 : identify interesting bots; literature review
-Oct 2018 - March 2019
+Aug 2018 - Sep 2018 : identify interesting bots; literature review; expose anfertigen
+Oct 2018 expose vorstellen
+Oct 2018 - Dec 2018: Feedback von der Exposevorstellung einarbeiten; refine
+Jan 2019: anmelden
+Feb 2019: start writing
+Jun 2019: abgeben
 
 \begin{comment}
 \begin{itemize}
