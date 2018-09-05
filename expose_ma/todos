@@ -41,9 +41,11 @@
   * HagermanBot: signs unsigned discussion entries
   * AvicBot: moves pages from category A to category B, if merge request exist on Categories for Discussion, or removes a category entirely if the request is to empty the category
   * CSDWarnBot: warns users when pages they've created are nominated for speedy deletion
+  * AIV Helperbots (Vandalismusbekämpfung)
 
 * pywikibot, other bot development frameworks
   https://www.mediawiki.org/wiki/Manual:Pywikibot/redirect.py
+* SxWiki PHP framework
 
 * Propose own bot and go through the whole process
 
