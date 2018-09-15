@@ -942,3 +942,64 @@ done to keep the community running"
 symbolic or meaning-filled, embedding them or automating
 them may not work because it could remove this function or
 make it less effective for this purpose."
+
+==================================================
+
+\cite{MueDoHer2013}
+
+2 categories of governance mechanisms: social and algorthmic
+* social: based primarily on communication; social norms are often formalized by
+written rules and guidelines
+* algorithmic: "techical infrastructure that enables users to access artifacts"
+"hat allows
+the community to communicate and coordinate their collective ac-
+tions to create those artifacts."
+
+Research question: "how a community’s
+consensus gradually converts social mechanisms into algorithmic
+mechanisms."
+
+Analyse algorithmic governance mechanisms for "flagged revisions" and "xqbot"
+
+Aims of the paper:
+"(1) characterizing social and algorithmic governance
+mechanisms,
+(2) discussing implementations of algorithmic gover-
+nance mechanisms,
+(3) presenting examples of how existing
+social mechanisms are successively manifested in the technical in-
+frastructure by converting them into algorithmic mechanisms."
+
+"the community gradually transfers “rights to rule” to bots"
+
+Governance def: "From a strategic management perspective, Williamson defines
+gov-
+ernance as the creation of order to achieve mutual gains in poten-
+tially conflict-laden contexts [39]"
+"A carefully negotiated and balanced set of rules
+is required to ensure the long-term survival of such commons-based
+governance regimes [22]."
+
+participation in FLOSS projects highly dependent on the governance structures
+
+governance regime -> dynamic phenomenon
+"community’s perception of its governance regime
+may change over time [16]."
+"communities are likely
+to introduce bureaucratic mechanisms into a stabilized governance
+regime, which would have been unthinkable in earlier phases"
+"On an individual level, [...] artifacts [...] are important in terms of their role as
+a coordination mechanism"
+
+Components of a governance regime:
+(1) structures and processes, (2)
+informal, formal, and encoded rules, (3) externally applied as well
+as internalized rules, and (4) mechanisms of both trust and verifi-
+cation/control” [18].
+
+Different views on governance in Wikipedia (check also Schoeder and Wagner[24])
+* comparably egalitarian and participatory governance
+* bureaucratic features
+* "strict hierarchical content management system"
+
+changed substantially over time
