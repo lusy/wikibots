@@ -947,6 +947,8 @@ make it less effective for this purpose."
 
 \cite{MueDoHer2013}
 
+speak of "encoded rules"
+
 2 categories of governance mechanisms: social and algorthmic
 * social: based primarily on communication; social norms are often formalized by
 written rules and guidelines
@@ -1003,3 +1005,222 @@ Different views on governance in Wikipedia (check also Schoeder and Wagner[24])
 * "strict hierarchical content management system"
 
 changed substantially over time
+
+Bot DEF!
+"Bots are “fully-
+automated software agents that perform algorithmically-defined tasks
+involved with editing, maintenance, and administration” [9]. How-
+ever, bots are not exclusively interpreted as software tools but also
+as managerial protocols [20] that are part of the infrastructure [8]"
+
+"It is argued that the majority of bots are not authors but that all bots
+can be seen as “content agents” [20]."
+
+Bot taxonomy: (vgl. Halfaker et al. [12]):
+"(1) bots that transfer data from pub-
+lic databases (e.g., census data) into articles,
+(2) bots that monitor and curate articles,
+(3) bots that extend the existing software func-
+tionality of Wikipedia’s underlying MediaWiki software (e.g., by
+converting an ordinary page into a dynamic, priority-based discus-
+sion queue), and
+(4) bots that protect against malicious activities."
+//Wo kommt hier die Community-Unterstützung rein? (E.g. Bots, die neue User
+//grüßen oder diejenigen die Beiträge auf Talk-Pages unterzeichnen?)
+
+"Bots’ activities are often hidden from human editors [7] because
+their edits are automatically filtered from the article history log."
+//TODO: ist das immer noch so?
+
+"Geiger and Ribes claim that
+the redistribution of work between human and non-human contrib-
+utors also transforms the “moral order” of Wikipedia because the
+assessment of human edits is carried out mainly by automated or
+semi-automated tools [9]."
+
+"In Wikipedia, bots are described as programs or scripts that help
+their operators to carry out “mindless, boring and often reoccurring
+tasks” (e.g., typo corrections). Similarly to human users, bots have
+their own user pages that contain amongst other things the name of
+the operator, a description of their tasks, and a link for administra-
+tors to shut them down if needed"
+
+"bots have no edit limits, they are allowed to work on semi-protected
+pages" //normal users have edit limits?
+"speed reduction of maximal five edits per minute"
+
+Requirements for a bot flag:
+* user name should contain the word “bot”,
+* a specific bot template has to be included on the user page,
+* the bot should provide some successfully carried out sample edits,
+* and the application for a bot flag has to be announced to the community.
+* Additionally, bots should only operate in the main namespace (that contains
+  all articles)
+und trotzdem: "in 2012, these “outside” edits accounted for over 40 percent of
+all bot edits."
+"In 2001, about 90 percent of all edits were carried
+out in the article namespace, but in 2006, this number had already
+decreased to 70 percent [15]."
+* Exceptions are possible, but these have to be discussed with and agreed
+  to by the community.
+
+
+Social governance mechanisms
+* based on social information
+* "Contributors need social information to define
+their role in a peer production community as well as to under-
+stand existing norms, policies, and procedures that are needed to
+carry out tasks"
+* "mechanisms that support communication in terms of an informal
+organizational structure"
+* "mechanisms that relate to the formally
+defined organizational structure."
+
+Algorithmic governance mechanisms
+* "OOS research focuses on technical artifacts such
+as standards, architectural documentation, and the API descriptions"
+* "Wikipedia context is mostly related to bots"
+
+Ideosyncracies of both:
+* "algorithmic mechanisms scale up well but
+social mechanisms do not."
+* "social mechanisms
+handle exceptions better than technical mechanisms"
+* "algorithmic mechanisms ensure that arbi-
+trary behavior can be reduced, for example in terms of this handling
+of exceptions."
+
+compare results of findings about the EN Wikipedia with the DE wikipedia
+
+"overall development of the
+German version of Wikipedia follows a similar impressive pattern
+to its larger sister project, we found substantial differences with re-
+gard to the implementation of algorithmic governance mechanisms,"
+
+Findings:
+"we show how bots, al-
+gorithmic tools originally implemented to support content creation,
+are being used increasingly for governance purposes."
+//kommt es aus den Daten hervor, dass Bots früher eher für Content creation
+//genutzt wurden? Oder woher weiß man das?
+
+"olicies “that
+all users should normally follow” as well as guidelines that “outline
+best practices for following those standards in specific contexts”
+are not considered to be “hard-and-fast rules”" //vgl auch the Bureaucracy paper
+
+"The notion of Wikipedia as a democracy is rejected explicitly"
+but it offers democratic tools used for decision-making (e.g surveys and polls)
+"“most decisions on Wiki-
+pedia are based on consensus, not on vote-counting or majority
+rule”.[38]"
+"majority of votes is not generally
+considered enough to legitimize decisions"
+
+1st major difference EN/DE Wikipedia:
+- automated vandal fighting not permitted in DE Wikipedia (ist es immer noch
+  so?)
+"algorithmic tools are only intended to support editors in identify-
+ing possible malicious edits, but automated assessments are not
+accepted"
+"Fighting vandals is seen as a form of handling excep-
+tions and should therefore be based upon human evaluation."
+
+2nd difference (Stand Dec 2012):
+- Flagged revisions in DE Wikipedia, but not in EN ("where the “Pending
+Changes” tool was introduced after lengthy discussions")
+"Whereas access to this governance feature is restricted socially on
+the English Wikipedia, the German language version grants this
+particular right automatically."
+
+"The whole system now works mostly automatically, which is why
+many if not most editors receive reviewer status without having to
+know anything about the concept of sighted revisions. As a result,
+access to the flagged revision feature scales up better than systems
+of manually assigning roles such as the rollbacker user right in En-
+glish Wikipedia."
+
+"the flagged revision case
+shows both the limitations of converting social into algorithmic
+governance mechanisms and the potentials in terms of scalability"
+
+descriptions of how software changes are accepted to the MediaWiki core
+
+(January 2012):
+* 72 additional extensions integrated into the German Wikipedia;
+* 83 extensions in the English Wikipedia
+
+Code is law:
+"In a way, software features represent the “hard law” of Wikipedia
+[17]. While policies and guidelines may be ignored"
+"it is much more difficult if not impossible to
+ignore rules implemented in the form of software functions."
+"In both cases of algorithmic governance - software features and
+bots - making rules part of the infrastructure, to a certain extent,
+makes them harder to change and easier to enforce."
+"The conversion of
+socially developed rules into source code makes norms even less
+transparent because only a small group of users can read source
+code [26]."
+"Additionally, users take bot edits for granted, and they
+do not question them, which is reflected in their absence from the
+article edit log (in the normal mode)."
+// das ist doch anders rum: niemand hinterfragt sie, weil sie niemand sieht. 
+
+"Criteria that define which user can access a feature are again pro-
+vided by community consensus. As a result, governance via soft-
+ware features might also be subject to substantial change over time."
+
+Stats Bot edits Dec 2012:
+* DE Wikipedia: 353 users with a bot flag assigned.
+* bots have been responsible for 12,183,766 edits (mean=35,410, std. dev=93,502.02) in the last 9 years.
+* corresponds to the number of edits carried out by the most active
+human users in December 2012 (13,747,466 edits, mean=38,945,
+std. dev=48,089.02)
+
+"Edits carried out by bots are continuously increasing in number"
+
+"We collected task descriptions from bots’ user pages to examine
+the kinds of activities in which bots are participating in the Wiki-
+pedia community"
+"In single, doubtful cases we matched edits with
+their task descriptions to identify discrepancies"
+
+Manual clustering of activities, 3 foci:
+(1) the content focus,
+    - mainly active in the article namespace
+    - support the curating activities of their operators
+    - connect different language versions of a page (I think this is obsolete
+      since this task is now done via Wikidata?)
+(2) the task focus,
+    - support maintenance work
+    - compile working lists
+    - inform editors about existing status changes
+(3) the community focus.
+    - unrelated to articles
+    - related to community rules and their enforcement
+
+in detail discussion of the xqbot:
+  * xqbot: initially: request speedy deletion of orphaned pages/remains of moved pages;
+    2 months later: "correcting double redirects, fixing
+    links on disambiguation pages, adding missing references tags in
+    articles, and the setting of interwiki-links."
+"The xqbot translates community consensus into practice, initially
+for one selected case, but later this practice was transferred into
+    similar areas without requesting additional community consensus.
+    The ability of algorithmic governance mechanisms to be replicated
+    easily in various areas of application has led to their increased and
+    almost unnoticed enforcement of rules."
+
+limitations:
+- DE wikipedia only
+- only users with the assigned bot flag
+- use a manual coding scheme for task clustering, unsuitable for analysis
+  reproduction?
+
+Fazit: "growing importance of comparably rigorous algorithmic mecha-
+nisms of governance in Wikipedia is at odds with the rule-skepticism
+predominant among community members"
+"with the growing im-
+portance of algorithmic governance there is also a growing need
+to govern algorithmic mechanisms."

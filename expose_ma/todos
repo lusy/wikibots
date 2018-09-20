@@ -14,6 +14,11 @@
   * what are adequate methods to answer it?
   * GeiHal2017 haben einen "Epistemology Overview" chapter!
 
+* "Bots’ activities are often hidden from human editors [7] because
+their edits are automatically filtered from the article history log."
+\cite{MueDoHer2013}
+//TODO: ist das immer noch so?
+
 * Bot resources angucken:
   * Mediation committee
   * Bot Approval Group
@@ -38,10 +43,22 @@
 * Interesting/tricky bots angucken (bes. im Community-Bereich aktiv):
   * ClueBot NG + HBC AIV Helperbots(fighting vandalism)
   * Mr.Z-bot: notifies users directly for users that are most likely spammers
-  * HagermanBot: signs unsigned discussion entries
+  * HagermanBot: signs unsigned discussion entries (and people were upset about
+    that! vgl \cite{MueDoHer2013}
+  * CopperBot: DE version of the HagermanBot
   * AvicBot: moves pages from category A to category B, if merge request exist on Categories for Discussion, or removes a category entirely if the request is to empty the category
   * CSDWarnBot: warns users when pages they've created are nominated for speedy deletion
   * AIV Helperbots (Vandalismusbekämpfung)
+  * http://en.wikipedia.org/wiki/User:MartinBot - vandal fighting bot in the EN Wikipedia
+  
+  Other bots with community focus in the DE Wikipedia:
+  * GiftBot: removes processed flagged revision requests, disseminates a
+    newsletter with new edits on pages
+  * Itemsbot
+  * xqbot: initially: request speedy deletion of orphaned pages/remains of moved pages;
+    2 months later: "correcting double redirects, fixing
+    links on disambiguation pages, adding missing references tags in
+    articles, and the setting of interwiki-links."
 
 * pywikibot, other bot development frameworks
   https://www.mediawiki.org/wiki/Manual:Pywikibot/redirect.py
@@ -53,6 +70,7 @@
   * begin with some data dumps, but ask additional questions and supplement with different data and methods
   * cooking data with care: take note of data science pipeline: explore the data, compile it carefully, ask critical questions
   * interviews with bot developers: understanding their considerations when developing the bot code.
+  * collect bot descriptions from user pages to identify what are bots doing
 
 * chapters/structure --> sich an GeiHal2017 orientieren
 
@@ -70,11 +88,17 @@
 
 * should I (how?) analyse also informal (not written) norms?
 
+* Wikimania sessions angucken:
+  https://wikimania2018.wikimedia.org/wiki/Program#Friday_20_July
+  leider ist es nächstes Jahr erst in August
+
 # Notes on tools/stuff that may be useful
 
 * for running SQL querries against Wikipedias DB: https://quarry.wmflabs.org/query/20703
 * Wikipedia's API (vlt identisch mit dem vorherigen Punkt?)
+* https://de.wikipedia.org/w/api.php
 * https://dumps.wikimedia.org
+* https://wikitech.wikimedia.org/wiki/Help:Cloud_Services_Introduction
 
 
 # Für die Arbeit
@@ -85,3 +109,4 @@
 * possible way of citing central works: einzelne quotes (siehe GeiHal2017)
 
 * Recommendation for ethical code guidelines for algorithmic systems
+* Make a Limitations chapter
