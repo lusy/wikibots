@@ -50,7 +50,7 @@ their edits are automatically filtered from the article history log."
   * CSDWarnBot: warns users when pages they've created are nominated for speedy deletion
   * AIV Helperbots (Vandalismusbekämpfung)
   * http://en.wikipedia.org/wiki/User:MartinBot - vandal fighting bot in the EN Wikipedia
-  
+
   Other bots with community focus in the DE Wikipedia:
   * GiftBot: removes processed flagged revision requests, disseminates a
     newsletter with new edits on pages
@@ -96,6 +96,14 @@ their edits are automatically filtered from the article history log."
   https://wikimania2018.wikimedia.org/wiki/Program#Friday_20_July
   leider ist es nächstes Jahr erst in August
 
+* From "Don't bite the newbies":
+  "Perhaps having other users
+reach out to them could help reinforce their connections to
+the community."
+  "other re-
+search has suggested that impersonal socialization tactics
+can do more harm then help"
+  //there is a bot who leaves a welcome greeting to the user page of new users (on german wikipedia?) -- could it be that used to be a social norm that got outsourced to a bot? was this kind of task performed by human editors before that?
 
 # Notes on tools/stuff that may be useful
 
