@@ -160,27 +160,92 @@ Bots
 \end{itemize}
 \end{comment}
 
-\subsection{Thematische Einordnung der Arbeit}
-\noindent \emph{Welche Literatur ist relevant für diese Arbeit?}
-\begin{comment}
-\begin{itemize}
-	\item Nutzen Sie Ihr vom Betreuer/in bereitgestellt Literatur und (!) nutzen Sie Google Scholar für Ihre weitere Recherche. Das HCC.lab forscht insbesondere in den Bereichen Computer Supported Cooperative Work and Human-Computer Interaction. Daher sind zwei Konferenzen mit den dazugehörigen Publikationen von besonderen Interesse: CHI (Annual SIGCHI Conference: Human Factors in Computing Systems) und CSCW (Computer Supported Cooperative Work). Diese Konferenzen und noch einige mehr können auf der SIGCHI Webseite gefunden werden \cite{sigchi:2015}. Die dazugehörigen Publikationen in der Digital Library von ACM \cite{acm:2015}.
-	\item Bitte geben Sie die relevanten Inhalte der Artikel kurz wieder.
-	\item Das Ausarbeiten von ausgewählter Literatur bzw. verwandten Arbeiten hilft Ihnen, Ihre Ziele im nachfolgenden Abschnitt klarer zu definieren. Daher ist eine Auseinandersetzung mit der Literatur von Beginn an notwendig, auch wenn es zu diesem Zeitpunkt noch nicht erschöpfend erfolgen kann.
-\end{itemize}
-\end{comment}
+\subsection{Literature Review}
+%\subsection{Thematische Einordung}
+
+Following literature was so far identified as relevant for the present thesis:
+
+\textbf{Algorithms/algorithmic governance}
 
 \cite{DanaherEtAl2017}
-- background for algorithmic governance, overview topics, methods, .. for research
-  Danaher et al.~\cite{DanaherEtAl2017} propose a framework for researching algorithmic governance systems, their effectiveness and legitimacy.
-  They provide a ``detailed map of key research themes, questions and methods'' which seems to be particularly useful for the current research proposal.
+  %title = {Algorithmic governance: Developing a research agenda through the power of collective intelligence},
+Danaher et al.~\cite{DanaherEtAl2017} propose a framework for researching algorithmic governance systems, their effectiveness and legitimacy.
+They provide a ``detailed map of key research themes, questions and methods'' which seems to be particularly useful for the current research proposal.
+
+\cite{BarHooZie2013}
+%title={Governing algorithms: A provocation piece},
+"Tarleton Gillespie identifies six dimensions of what he
+termed “public relevance algorithms”:
+“patterns of inclusion,” // how about patterns of exclusion?
+“cycles of anticipation,”
+“the evaluation of relevance,” 
+“the promise of algorithmic objectivity,”
+“entanglement with practice,”
+and “the production of calculated publics” (Gillespie forthcoming)."
+
+the specificity question:
+algorithm = computer = software = machine = god?
+
+distinction algorithms/data:
+"This upends the common notion that access to the source code of
+software grants full access to the software’s functionality."
+
+delegating knowledge production to machines: met with fierce resistance
+
+2 types of automation tasks delegated to machines
+- subjecting data to analysis, tasks impossible to perform manually
+- decision making
+
+agency and control: who's the arbiter? who excercises control/autority over the
+algorithm?
+
+deferral of accountability:
+"Similar to invocations of
+“technical failure,” responsibility and blame tend to be put on “the
+algorithm”."
+
+people are often unaware of where algorithms are at work (siehe zb Writing up
+paper where a Wikipedia editor wasn't sure whether it was a bot or a person who
+was deleting their contributions)
+Who understands the algorithms:
+"But even if these algorithms
+were somehow more manifest, would we find that they are nonetheless
+inscrutable?"
+secrecy: trade secret, blabla
+legal issues
 
 
+\textbf{Bots on Wikipedia}
 \cite{Geiger2017}
+%title = {Beyond opening up the black box: Investigating the role of algorithmic systems in Wikipedian organizational culture},
 - describes complex interplay between social and technical systems in governing wikipedia
 
   Geiger~\cite{Geiger2017} is just one example of numerous works on the societal implications of bots and algorithmic systems in general in Wikipedia's ecosystem.
   It addresses various aspects and consequences of algorithmic governance within Wikipedia, such as driving away newcomers through an overly complicated bureaucratic process which results in Wikipedia turning into a gated community where only experienced users can fully participate.
+
+"Wikipedia demonstrates how the issues in and around
+algorithmic systems are as much social as they are tech-
+nical, going far beyond the opacities that arise around
+proprietary source code. My argument extends Burrell’s
+(2016) discussion of three different forms of opacity in
+machine learning: intentional secrecy (proprietary
+source code), technical literacy (such as learning to
+read code), and opacities inherent in machine learning
+(such as issues of interpretability). To these forms, I add
+another: the opacities in learning a particular institu-
+tional or organizational culture that is supported by
+algorithmic systems."
+// source is open, but who can actually read it? and is willing to invest the time and energy in order to hold the system accountable?
+// vgl auch Gedanke von Claudia: "Wikipedia is spannend, weil wir daran das erforschen können, was wir an Facebook nicht können. Und weil die ein Abbild der Gesellschaft im Kleinen ist."
+// vgl auch Web Science def: observe micro behaviours in order to study macro phenomenons (governance, ..)
+
+Requirements/Expectations for bot developers:
+"bot developers are generally expected to be responsive
+to reasonable requests and concerns from the
+community."
+
+"Wikipedians discuss and debate
+about what kinds of bots should exist in the project,"
 
 \cite{GeiHal2017}
 - replication study of the paper "Even Good Bots Fight" that raised the theory
@@ -208,6 +273,16 @@ research question: "to what extent are bot-bot reverts
 in Wikipedia genuine conflicts where disagreements about how Wikipedia ought to be written were
 embedded in opposing bot codebases, versus cases like Shoreland’s Addbot that reflect the opposite?"
 
+\cite{HalKitRied2011}
+Don't bite the newbies
+
+\cite{MuellerBirn2014}
+  Mueller-Birn et al.~\cite{MuellerBirn2014} provide an overview over different tasks bots in Wikipedia carry out.
+  They categorise these in two main groups: community services and guidelines/policies.
+  The authors also suggest that attitudes towards bots have changed over time, and acceptance of bots has gradually grown.
+
+
+\textbf{Methodology}
 \cite{GeiRib2011}
 - define the trace ethnography methodology
 - traditional ethnography + heavy reliance on documentation
@@ -217,42 +292,9 @@ embedded in opposing bot codebases, versus cases like Shoreland’s Addbot that 
 - ethical concerns: people couldn't have consented in an informed manner
 
 
-\cite{HalKitRied2011}
-Don't bite the newbies
-
-\cite{IliadisRusso2016}
-Introduction to Critical Data Studies + Literature Overview
-
-big data is not neutral but instead consists of already constituted assemblages
-
-"Data are a form of power."
-"lack of data is another indication of power, the power
-not to look or to remain hidden (Brunton and
-Nissenbaum, 2015; Flyverbom et al., 2016)."
-"foreground data’s power structures"
-
-current research trends: positivist approach (and not critical)
-
-Def:
-"critical approach to Big Data
-investigates meta-theoretical modes of conversation
-and styles of scientific thinking"
-"analyzes the
-ground upon which positivistic Big Data science stands."
-"How do Big Data inflect and interact with society,"
-"CDS has emerged as a loose knit group of
-frameworks, proposals, questions, and mani-
-festos"
-"What need to be established are long-term projects"
-
-\cite{MuellerBirn2014}
-  Mueller-Birn et al.~\cite{MuellerBirn2014} provide an overview over different tasks bots in Wikipedia carry out.
-  They categorise these in two main groups: community services and guidelines/policies.
-  The authors also suggest that attitudes towards bots have changed over time, and acceptance of bots has gradually grown.
-
-\subsection{Zielstellung}
-\noindent \emph{Welche Ziele werden mit der Arbeit verfolgt? Welche zentralen Fragen lassen sich daraus ableiten?}
-Thema 1: Analyzing the translation of social into algorithmic rules
+\subsection{Aim of the thesis}
+%\noindent \emph{Welche Ziele werden mit der Arbeit verfolgt? Welche zentralen Fragen lassen sich daraus ableiten?}
+This thesis aims at analyzing the translation of social into algorithmic rules.
 
 Our goal is to better understand how existing social rules are 
 translated into algorithm manifestations by analyzing the existing 
@@ -384,6 +426,12 @@ What I'm doing:
   * begin with some data dumps, but ask additional questions and supplement with different data and methods
   * cooking data with care: take note of data science pipeline: explore the data, compile it carefully, ask critical questions
   * interviews with bot developers: understanding their considerations when developing the bot code.
+
+\subsection{Some important definitions}
+Def "algorithmic": "as involving encoded proced-
+ures, which are typically—but not exclusively—compu-
+tationally implemented."~\cite{Geiger2017}
+
 \subsection{Erster Terminplan}
 \noindent  \emph{Wie ist der generelle Zeitplan der Arbeit? }
 
