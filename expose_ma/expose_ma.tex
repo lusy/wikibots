@@ -296,26 +296,24 @@ This would signify that bots have ended up implementing guidelines and norms in 
 Furthermore, an analysis of established bot development frameworks such as pywikibot and their influence on prevalence of automated tasks is planned.
 Finally, I'd like to also propose recommendations for ethical code guidelines for developing algorithmic systems which could be included in bot development frameworks.
 
-\section{Geplante Vorgehensweise}
-\noindent \emph{Welche einzelnen Aktivitäten müssen umgesetzt werden, um die Fragen zu beantworten und das Ziel der Arbeit zu erreichen?}
-\begin{comment}
-\begin{itemize}
-	\item Aus den Fragen (vorheriger Abschnitt) können Sie dann Aktivitäten ableiten, die Ihnen helfen, Ihre weitere Arbeit zu strukturieren.
-\end{itemize}
-\end{comment}
+\section{Planned procedure}
 
-Das sind keine Ziele, sondern Methodologie!
-\begin{itemize}
-  \item browse Wikipedia (which language versions? are bots language specific?); identify interesting bots
-  \item study source code
-  \item try talking to bots' developers
-  \item study documentation/discussions around the bots development
-\end{itemize}
+Following steps are planned in order to answer the research question(s):
 
 \begin{itemize}
-  \item \emph{document analysis}: review relevant guidelines and policies such as the Manual of style and Criteria for speedy deletion, as well as policies for creating bots such as the Bot policy and the Requests for approval
-  \item \emph{code analysis}: analyse code of previously selected bots that seem to contradict a policy or a guideline in some way
-  \item \emph{interviews with bot developers}: talk to bot developers about their intentions and approach when they conceived and implemented a particular bot
+    \item assemble bots from different language versions (EN; DE; BG; ES; CAT)
+    \item identify bots for which source code is available
+    \item of the bots for which the source code is available: take exemplary cases paticularly active in the community sphere, and study their social context: what community norms do they try to implement? what discussions happened prior to implementing the bots?
+    \begin{itemize}
+        \item look at community pages concerning these bots: start at Village Pump (\url{https://en.wikipedia.org/wiki/Wikipedia:Village_pump})
+    \end{itemize}
+    \item study source code of the bots of interest: are there such that seem to contradict a policy or the consensus which lead to their implementation?
+    \item contact bot operators and via them get in touch with the developer (mostly the same person); interview bot developers to better understand their motives and considerations while developing the bots
+    \item look at bot frameworks (pywikibot, nochwas?): is there a disproportional emphasis on bot activities for which source code is provided in these frameworks where as other tasks get neglected?
+    \item based on the insights won during described analysis, formulate ethical code recommendations
+    \begin{itemize}
+        \item familiarise yourself with existing bot policies
+    \end{itemize}
 \end{itemize}
 
 \subsection{Bots}
@@ -323,15 +321,16 @@ Das sind keine Ziele, sondern Methodologie!
 This is a preliminary list of potentially interesting bots to look into:
 
 \begin{itemize}
-  \item HagermanBot (EN, there's a german equivalent): signs unsigned discussion entries -- there was a
+  \item HagermanBot (EN, there is a German equivalent): signs unsigned discussion entries -- there was a
   controversy, because some users specifically didn't want their posts to be
   signed
   \item AvicBot: moves pages from category A to category B, if merge request exist on Categories for Discussion, or removes a category entirely if the request is to empty the category
   \item CSDWarnBot: warns users when pages they've created are nominated for speedy deletion
   \item Mr.Z-bot: notifies users directly for users that are most likely spammers
-  \item ClueBot NG + HBC AIV Helperbots(fighting vandalism)
-  \item What about the bots that tweet about anonyme edits from inside the Parliament/Congress/Bundestag?
+  \item ClueBot NG + HBC AIV Helperbots: help fighting vandalism
+%  \item What about the bots that tweet about anonyme edits from inside the Parliament/Congress/Bundestag?
 \end{itemize}
+
 
 \section{Methodische Umsetzung}
 \noindent \emph{Mit welcher Methodik setzen Sie die einzelnen Aktivitäten in Ihrer Arbeit um?}
