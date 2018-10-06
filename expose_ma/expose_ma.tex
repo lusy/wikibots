@@ -115,13 +115,8 @@
 %---------------------------------------------------
 \setcounter{page}{1} % page number is set to "1" otherwise it would be "3"
 
-\section{Struktur des Exposé}
-\begin{comment}
-Im Folgenden habe ich Ihnen eine generelle Struktur für ein Exposé vorgegeben. Jeder Abschnitt wird mit Fragen eingeleitet, welchen den Inhalt des Abschnitts abdecken. Ich gebe Ihnen, wenn erforderlich, noch einige Erläuterungen. Bitte beachten Sie, dass das Layout dieser Vorlage doppelseitig angelegt ist und daher auch der Ausdruck doppelseitig erfolgen sollte. Zur Erinnerung: ein Exposé umfasst ungefähr sechs bis zehn Seiten abhängig vom Thema. Der Inhalt des Exposé bildet dann das Grundgerüst für die schriftliche Ausarbeitung Ihrer Masterarbeit. Erst nach Abnahme des Exposé sollten Sie Ihre Masterarbeit anmelden.
-\end{comment}
-
-\subsection{Motivation}
-\noindent \emph{In welchem Bereich/Themenfeld bewegt sich Ihre geplante Arbeit? }
+\section{Motivation}
+%\noindent \emph{In welchem Bereich/Themenfeld bewegt sich Ihre geplante Arbeit? }
 
 This thesis is ubiquited in the field of human-computer interaction and more
 specifically, algorithmic governance and socio-technical systems.
@@ -160,12 +155,12 @@ Bots
 \end{itemize}
 \end{comment}
 
-\subsection{Literature Review}
+\section{Literature Review}
 %\subsection{Thematische Einordung}
 
 Following literature was so far identified as relevant for the present thesis:
 
-\textbf{Algorithms/algorithmic governance}
+\subsection{Algorithms/algorithmic governance}
 
 \cite{DanaherEtAl2017}
   %title = {Algorithmic governance: Developing a research agenda through the power of collective intelligence},
@@ -215,7 +210,7 @@ secrecy: trade secret, blabla
 legal issues
 
 
-\textbf{Bots on Wikipedia}
+\subsection{Bots on Wikipedia}
 \cite{Geiger2017}
 %title = {Beyond opening up the black box: Investigating the role of algorithmic systems in Wikipedian organizational culture},
 - describes complex interplay between social and technical systems in governing wikipedia
@@ -255,7 +250,7 @@ about what kinds of bots should exist in the project,"
 - operationalise conflict
 - generate a data set
 - analyse edit summaries, cluster bot activities accordingly
-- 2 metrics: # of bot-pair-per-article reverts, time between reverts
+- 2 metrics: number of bot-pair-per-article reverts, time between reverts
 - quantitative and qualitative analysis
 - conclusion: only 0.something of all bot-bot-reverts are genuine conflict
 
@@ -282,7 +277,7 @@ Don't bite the newbies
   The authors also suggest that attitudes towards bots have changed over time, and acceptance of bots has gradually grown.
 
 
-\textbf{Methodology}
+\subsection{Methodology}
 \cite{GeiRib2011}
 - define the trace ethnography methodology
 - traditional ethnography + heavy reliance on documentation
@@ -292,7 +287,7 @@ Don't bite the newbies
 - ethical concerns: people couldn't have consented in an informed manner
 
 
-\subsection{Aim of the thesis}
+\section{Aim of the thesis}
 %\noindent \emph{Welche Ziele werden mit der Arbeit verfolgt? Welche zentralen Fragen lassen sich daraus ableiten?}
 The purpose of this thesis is investigating the translation of social into algorithmic rules on Wikipedia.
 To this end, I will evaluate the community engagement of bots and try to understand which social norms in particular they intend to implement.
@@ -301,7 +296,7 @@ This would signify that bots have ended up implementing guidelines and norms in 
 Furthermore, an analysis of established bot development frameworks such as pywikibot and their influence on prevalence of automated tasks is planned.
 Finally, I'd like to also propose recommendations for ethical code guidelines for developing algorithmic systems which could be included in bot development frameworks.
 
-\subsection{Geplante Vorgehensweise}
+\section{Geplante Vorgehensweise}
 \noindent \emph{Welche einzelnen Aktivitäten müssen umgesetzt werden, um die Fragen zu beantworten und das Ziel der Arbeit zu erreichen?}
 \begin{comment}
 \begin{itemize}
@@ -323,7 +318,7 @@ Das sind keine Ziele, sondern Methodologie!
   \item \emph{interviews with bot developers}: talk to bot developers about their intentions and approach when they conceived and implemented a particular bot
 \end{itemize}
 
-\emph{Bots}
+\subsection{Bots}
 
 This is a preliminary list of potentially interesting bots to look into:
 
@@ -338,7 +333,7 @@ This is a preliminary list of potentially interesting bots to look into:
   \item What about the bots that tweet about anonyme edits from inside the Parliament/Congress/Bundestag?
 \end{itemize}
 
-\subsection{Methodische Umsetzung}
+\section{Methodische Umsetzung}
 \noindent \emph{Mit welcher Methodik setzen Sie die einzelnen Aktivitäten in Ihrer Arbeit um?}
 Bereich: Data/Community Analytics <--- me?
 
@@ -361,7 +356,7 @@ ANT
 \end{itemize}
 \end{comment}
 
-\subsection{Technische Umsetzung}
+\section{Technische Umsetzung}
 \noindent \emph{Mit welchen softwaretechnischen Hilfsmitteln soll die Arbeit realisiert werden?}
 \begin{comment}
 \begin{itemize}
@@ -386,12 +381,12 @@ What I'm doing:
   * cooking data with care: take note of data science pipeline: explore the data, compile it carefully, ask critical questions
   * interviews with bot developers: understanding their considerations when developing the bot code.
 
-\subsection{Some important definitions}
+\section{Some important definitions}
 Def "algorithmic": "as involving encoded proced-
 ures, which are typically—but not exclusively—compu-
 tationally implemented."~\cite{Geiger2017}
 
-\subsection{Erster Terminplan}
+\section{Erster Terminplan}
 \noindent  \emph{Wie ist der generelle Zeitplan der Arbeit? }
 
 Aug 2018 - Sep 2018 : identify interesting bots; literature review; expose anfertigen
