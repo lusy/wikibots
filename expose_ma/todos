@@ -60,11 +60,21 @@ their edits are automatically filtered from the article history log."
     links on disambiguation pages, adding missing references tags in
     articles, and the setting of interwiki-links."
 
-* pywikibot, other bot development frameworks
-  https://www.mediawiki.org/wiki/Manual:Pywikibot/redirect.py
-* SxWiki PHP framework
+    * From "Don't bite the newbies":
+    "Perhaps having other users
+    reach out to them could help reinforce their connections to
+    the community."
+    "other re-
+    search has suggested that impersonal socialization tactics
+    can do more harm then help"
+    //there is a bot who leaves a welcome greeting to the user page of new users (on german wikipedia?) -- could it be that used to be a social norm that got outsourced to a bot? was this kind of task performed by human editors before that?
 
-* Propose own bot and go through the whole process
+* bot development framework:
+  * pywikibot https://www.mediawiki.org/wiki/Manual:Pywikibot/redirect.py
+  * SxWiki PHP framework -- not found on the internet??
+  * list of further frameworks: https://www.mediawiki.org/wiki/Manual:Creating_a_bot#Programming_languages_and_libraries
+
+* Propose own bot and go through the whole process: https://www.mediawiki.org/wiki/Manual:Creating_a_bot
 
 * methods:
   * begin with some data dumps, but ask additional questions and supplement with different data and methods
@@ -97,22 +107,13 @@ their edits are automatically filtered from the article history log."
   https://wikimania2018.wikimedia.org/wiki/Program#Friday_20_July
   leider ist es nächstes Jahr erst in August
 
-* From "Don't bite the newbies":
-  "Perhaps having other users
-reach out to them could help reinforce their connections to
-the community."
-  "other re-
-search has suggested that impersonal socialization tactics
-can do more harm then help"
-  //there is a bot who leaves a welcome greeting to the user page of new users (on german wikipedia?) -- could it be that used to be a social norm that got outsourced to a bot? was this kind of task performed by human editors before that?
+
+# Literature
 
 * From "Judith S Olson and Wendy A Kellogg. Ways of Knowing in HCI." (available with Claudia) check following chapters:
   * Research Ethics and HCI. Amy Bruckman. Pages 449-468
   * Study, Build, Repeat: Using Online Communities as a Research Platform. Loren Terveen, Joseph A. Konstan, Cliff Lampe. Pages 95-117
   * Knowing by Doing: Action Research as an Approach to HCI. Gillian R. Hayes. Pages 49-68
-
-
-
 
 # Notes on tools/stuff that may be useful
 
