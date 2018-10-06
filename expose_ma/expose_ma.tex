@@ -132,6 +132,12 @@ Are there bots that implement hard rules ("Code is law") that nobody intended to
 
 %TODO: Bots def
 
+\begin{comment}
+  * wäre es interessant drüber nachzudenken, dass Menschen manchmal nicht
+    verstehen ob sie mit nem Bot oder mit einer Person zu tun haben und was für
+    Konsequenzen das hat? (vgl Wrtiting up rather than writing down paper)
+\end{comment}
+
 \section{Literature Review}
 %\subsection{Thematische Einordung}
 
@@ -270,7 +276,7 @@ The purpose of this thesis is investigating the translation of social into algor
 To this end, I will evaluate the community engagement of bots and try to understand which social norms in particular they intend to implement.
 I am especially looking for cases in which there is a mismatch between what the bot is actually doing, what the developer intended it to do and what the community consensus was.
 This would signify that bots have ended up implementing guidelines and norms in distorted way, effectively creating constraints that no one wanted to have to begin with and turning them into the status quo.
-Furthermore, an analysis of established bot development frameworks such as pywikibot and their influence on prevalence of automated tasks is planned.
+Furthermore, an analysis of established bot development frameworks such as pywikibot (https://www.mediawiki.org/wiki/Manual:Pywikibot), wikitools (https://github.com/alexz-enwp/wikitools) or Apibot (apibot.zavinagi.org) and their influence on prevalence of automated tasks is planned.
 Finally, I'd like to also propose recommendations for ethical code guidelines for developing algorithmic systems which could be included in bot development frameworks.
 
 \section{Planned procedure}
@@ -278,7 +284,15 @@ Finally, I'd like to also propose recommendations for ethical code guidelines fo
 Following steps are planned in order to answer the research question(s):
 
 \begin{itemize}
-    \item assemble bots from different language versions (EN; DE; BG; ES; CAT)
+    \item assemble bots from different language versions (EN; DE; BG; ES; CAT): 
+  * bot user group
+  * user_former_groups : former bots
+  * "Bot user" cross-wiki category
+  https://de.wikipedia.org/wiki/Wikipedia:Bots
+  Wikidata Item “Q3681760”
+  --> identify all bots with available source code
+  --> which of them are active in the community area?
+  --> look at process of approval (request for the bot, discussion, etc.)
     \item identify bots for which source code is available
     \item of the bots for which the source code is available: take exemplary cases paticularly active in the community sphere, and study their social context: what community norms do they try to implement? what discussions happened prior to implementing the bots?
     \begin{itemize}
@@ -289,11 +303,21 @@ Following steps are planned in order to answer the research question(s):
     \item look at bot frameworks (pywikibot, nochwas?): is there a disproportional emphasis on bot activities for which source code is provided in these frameworks where as other tasks get neglected?
     \item based on the insights won during described analysis, formulate ethical code recommendations
     \begin{itemize}
-        \item familiarise yourself with existing bot policies
+        \item familiarise yourself with existing bot policies (following Wikipedia resources can be of interest:
+  * Mediation committee
+  * Bot Approval Group
+  * Bot policies (siehe oben)
+  * bot users and former bot users
+  * Bot approval proposals
+  https://en.wikipedia.org/wiki/Wikipedia:Bots/Requests_for_approval
+  https://bg.wikipedia.org/wiki/%D0%A3%D0%B8%D0%BA%D0%B8%D0%BF%D0%B5%D0%B4%D0%B8%D1%8F:%D0%91%D0%BE%D1%82/%D0%97%D0%B0%D1%8F%D0%B2%D0%BA%D0%B8
+  https://en.wikipedia.org/wiki/Wikipedia:Bots/Requests_for_approval/Addbot_32
+  * Arbitration Committee ("adjudicating complex and high-level disputes, including several cases around bots")
     \end{itemize}
 \end{itemize}
 
 I am also considering proposing a bot in front of the Bot Approval Group in order to gather better understanding for the social processes at work.
+https://www.mediawiki.org/wiki/Manual:Creating_a_bot
 
 \subsection{Bots}
 
@@ -309,6 +333,24 @@ This is a preliminary list of potentially interesting bots to look into:
   \item ClueBot NG + HBC AIV Helperbots: help fighting vandalism
 %  \item What about the bots that tweet about anonyme edits from inside the Parliament/Congress/Bundestag?
 \end{itemize}
+  * ClueBot NG + HBC AIV Helperbots(fighting vandalism)
+  * Mr.Z-bot: notifies users directly for users that are most likely spammers
+  * HagermanBot: signs unsigned discussion entries (and people were upset about
+    that! vgl \cite{MueDoHer2013}
+  * CopperBot: DE version of the HagermanBot
+  * AvicBot: moves pages from category A to category B, if merge request exist on Categories for Discussion, or removes a category entirely if the request is to empty the category
+  * CSDWarnBot: warns users when pages they've created are nominated for speedy deletion
+  * AIV Helperbots (Vandalismusbekämpfung)
+  * http://en.wikipedia.org/wiki/User:MartinBot - vandal fighting bot in the EN Wikipedia
+
+  Other bots with community focus in the DE Wikipedia:
+  * GiftBot: removes processed flagged revision requests, disseminates a
+    newsletter with new edits on pages
+  * Itemsbot
+  * xqbot: initially: request speedy deletion of orphaned pages/remains of moved pages;
+    2 months later: "correcting double redirects, fixing
+    links on disambiguation pages, adding missing references tags in
+    articles, and the setting of interwiki-links."
 
 \section{Methodological implementation}
 %\noindent \emph{Mit welcher Methodik setzen Sie die einzelnen Aktivitäten in Ihrer Arbeit um?}
@@ -322,6 +364,10 @@ I will work with different types of quantitative and qualitative data, following
 Subtasks of the research involve source code analysis, document analysis and developer interviews.
 
 \begin{comment}
+  * what is the question and what are adequate methods to answer it?
+  * GeiHal2017 haben einen "Epistemology Overview" chapter!
+  * hauptsache: sich selber kritisch hinterfragen
+
 * methods:
   * begin with some data dumps, but ask additional questions and supplement with different data and methods
   * cooking data with care: take note of data science pipeline: explore the data, compile it carefully, ask critical questions
@@ -349,9 +395,19 @@ I am planning on using following technical resources in order to realise afore m
 \end{itemize}
 
 \section{Some important definitions}
+
+\subsection{Algorithm and algorithmic}
 Def "algorithmic": "as involving encoded proced-
 ures, which are typically—but not exclusively—compu-
 tationally implemented."~\cite{Geiger2017}
+% algorithm -- was ist der Unterschied zwischen Bot und Algorithmus
+
+\subsection{Bot}
+siehe GeiHal2017
+
+\subsection{Algorithmic governance}
+
+\subsection{Conflict}
 
 \section{Preliminary schedule}
 %\noindent  \emph{Wie ist der generelle Zeitplan der Arbeit? }
