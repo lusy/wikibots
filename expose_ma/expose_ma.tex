@@ -121,7 +121,6 @@
 This thesis is situated in the field of human-computer interaction and more specifically algorithmic governance and socio-technical systems.
 Algorithmic governance refers to the notion of algorithms used in governance systems, (partially) taking decisions concerning humans.
 As Danaher et al. put it ``algorithms are increasingly being used to nudge, bias, guide, provoke, control, manipulate and constrain human behaviour''~\cite{DanaherEtAl2017}.
-%TODO: def!
 
 Wikipedia is a complex socio-technical system where mechanisms of algorithmic governance are increasingly used.
 Unlike many others, it is also an open socio-technical system that allows us to study phenomena we can't observe elsewhere.
@@ -129,9 +128,7 @@ Since its birth in 2001, the free online encyclopedia has come to comprise nearl
 Today, nearly 2000 bots exist in Wikipedia which perform various tasks regarding community support and maintenance.
 At the latest when there are users who are not sure anymore whether they interact with a human user or a bot~\cite{FordGeiger2012}, it is time to evaluate critically the automated agents active in the system.
 How are these automated systems influencing the Wikipedian community?
-Are there bots that implement hard rules ("Code is law") that nobody intended to have but end up in there anyway?
-
-%TODO: Bots def
+Are there bots that implement hard rules ("Code is law") that nobody intended to have but end up as a part of the infrastructure anyway?
 
 
 \section{Literature Review}
@@ -192,6 +189,27 @@ And continues by underlining that ``the algorithmic systems themselves are const
 The key question here is who has the knowledge and privilege to participate in these negotiations.
 \newline
 \newline
+\textbf{Work-to-rule: the emergence of algorithmic governance in Wikipedia}~\cite{MueDoHer2013}
+\newline
+\newline
+In this paper, Müller-Birn et al. speak of ``encoded rules'' alluding again to the notion of software systems as a hard law.
+They identify two categories of governance mechanisms: social and algorithmic.
+According to the researchers, social rules are based primarily on communication and are often formalised by written rules and guidelines.
+Their strength lies in handling exceptions.
+In contrast, the algorithmic governance mechanisms are the ``techical infrastructure that enables users to access artifacts'' which makes them easier to scale and enforce and harder to change.
+Curiously, the algorithmic implementation of rules defies one of the fundamental principles of Wikipedia: ``ignore all the rules''.
+The authors are interested in the shift from social to algorithmic mechanisms and the community's consensus that directs this shift.
+Furthermore, a bot definition is provided:
+\begin{quotation}
+Bots are ``fully-
+automated software agents that perform algorithmically-defined tasks
+involved with editing, maintenance, and administration'' [9]. However, bots are not exclusively interpreted as software tools but also
+as managerial protocols [20] that are part of the infrastructure [8].
+\end{quotation}
+There is also a detailed description of all requirements needed in order to operate a bot, the acceptance of which is a social process.
+Algorithmic governance mechanisms are exemplary analysed for two cases: the "flagged revisions" software extention and xqbot.
+\newline
+\newline
 \textbf{Bots in Wikipedia: Unfolding Their Duties}~\cite{MuellerBirn2014}
 \newline
 \newline
@@ -199,10 +217,8 @@ Mueller-Birn et al.~\cite{MuellerBirn2014} provide an overview over different ta
 They categorise these in two main groups: community services (where bots mainly create reports) and guidelines/policies (where bots mainly add templates to pages).
 The authors also suggest that attitudes towards bots have changed over time, and acceptance of bots has gradually grown.
 
-
-\cite{HalKitRied2011}
-Don't bite the newbies
-
+%\cite{HalKitRied2011}
+%Don't bite the newbies
 
 \section{Aim of the thesis}
 %\noindent \emph{Welche Ziele werden mit der Arbeit verfolgt? Welche zentralen Fragen lassen sich daraus ableiten?}
@@ -213,12 +229,6 @@ This would signify that bots have ended up implementing guidelines and norms in 
 Furthermore, an analysis of established bot development frameworks such as pywikibot (\url{https://www.mediawiki.org/wiki/Manual:Pywikibot}), wikitools (\url{https://github.com/alexz-enwp/wikitools}) or Apibot (\url{apibot.zavinagi.org}) and their influence on prevalence of automated tasks is planned.
 Finally, I'd like to also propose recommendations for ethical code guidelines for developing algorithmic systems which could be included in bot development frameworks.
 
-\begin{comment}
-Claudia's paper:
-"“In both cases of algorithmic governance
-– software features and bots – making rules part of the infrastructure, to a certain extent, makes
-them harder to change and easier to enforce” (p. 87)"
-\end{comment}
 
 \section{Planned procedure}
 
@@ -348,7 +358,34 @@ automated software agents that perform algorithmically-defined tasks
 involved with editing, maintenance, and administration” [9]. How-
 ever, bots are not exclusively interpreted as software tools but also
 as managerial protocols [20] that are part of the infrastructure [8]"
+
+"In Wikipedia, bots are described as programs or scripts that help
+their operators to carry out “mindless, boring and often reoccurring
+tasks” (e.g., typo corrections). Similarly to human users, bots have
+their own user pages that contain amongst other things the name of
+the operator, a description of their tasks, and a link for administra-
+tors to shut them down if needed"~\cite{MueDoHer2013}
+
 \subsection{Algorithmic governance}
+Governance def: "From a strategic management perspective, Williamson defines
+gov-
+ernance as the creation of order to achieve mutual gains in poten-
+tially conflict-laden contexts [39]"
+"A carefully negotiated and balanced set of rules
+is required to ensure the long-term survival of such commons-based
+governance regimes [22]."~\cite{MueDoHer2013}
+
+"communities are likely
+to introduce bureaucratic mechanisms into a stabilized governance
+regime, which would have been unthinkable in earlier phases"
+"On an individual level, [...] artifacts [...] are important in terms of their role as
+a coordination mechanism"~\cite{MueDoHer2013}
+
+Components of a governance regime:
+(1) structures and processes, (2)
+informal, formal, and encoded rules, (3) externally applied as well
+as internalized rules, and (4) mechanisms of both trust and verifi-
+cation/control” [18].
 
 \subsection{Conflict}
 Types of conflicts:~\cite{GeiHal2017}
