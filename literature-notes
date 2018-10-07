@@ -432,7 +432,7 @@ classify patterns in edit summaries
 summaries are records of what the bot developer has programmed the bot to say the edit is doing
 (as opposed to what the bot is actually doing).")
 - grouping edits by reverting comment and counting the most frequently occurring comments
-- ounting the most commonly occurring words and n-grams in comments.
+- counting the most commonly occurring words and n-grams in comments.
 
 Conclusion:
 "We found that the overwhelming majority of bot-bot reverts on articles are better characterized as

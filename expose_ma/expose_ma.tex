@@ -222,30 +222,12 @@ community."
 about what kinds of bots should exist in the project,"
 
 \cite{GeiHal2017}
-- replication study of the paper "Even Good Bots Fight" that raised the theory
-  that bots get into conflict/revert wars constantly
-- introduce a very detailed open methodology, have a github and .. repository
-  with their whole data processing pipeline
-- operationalise conflict
-- generate a data set
-- analyse edit summaries, cluster bot activities accordingly
-- 2 metrics: number of bot-pair-per-article reverts, time between reverts
-- quantitative and qualitative analysis
-- conclusion: only 0.something of all bot-bot-reverts are genuine conflict
 
-trace ethnography: "seek to understand data in the context it has within a community of practice," "data to be a starting point for further contextualization and interpretation,"
-operationalise conflict!
-distinguish conflict from non-conflict in bot reverts
-compile data set + meta data
-background: wikipedia researchers + long-time contributors
-findings: overwhelming majority of the reverts are routine collaborative work between bots
-metrics: time between reverts; number of reverts per article for the same bot pair
-in addition: in depth analysis of random examples from different parts of the statistical distribution of the metrics
-classify patterns in edit summaries
+This work is a replication study of the paper ``Even Good Bots Fight''~\cite{TsvetkovaEtAl2017} that claimed to have identified a considerable amount of conflicts between Wikipedia bots.
 
-research question: "to what extent are bot-bot reverts
-in Wikipedia genuine conflicts where disagreements about how Wikipedia ought to be written were
-embedded in opposing bot codebases, versus cases like Shoreland’s Addbot that reflect the opposite?"
+Above all, the methodology of the authors draws attention: Geiger and Halfaker apply trace ethnography and lay out their work in a very detailed manner, making lengthy observations on epistemology, context, their own backgrounds and positions and providing a github and a Figshare repositories containing the code for their data processing pipeline, the assembled datasets and other research artefacts.
+They begin by operationalising conflict and carefully examining an enriched version of the dataset of bot-bot reverts studied by Tsvetkova et al. and conclude that when these data are put in context, only a very small amount of the reverts in question are cases of genuine conflict whereas the majority of the reverts are examples for routine productive collaboration between bots.
+Geiger and Halfaker warn that data do not speak for themselves and a contextualised knowledge, in particular trace literacy, which arises from being a member in a particular community of practice (in this case Wikipedia) is needed in order to draw correct conclusions.
 
 \cite{HalKitRied2011}
 Don't bite the newbies
@@ -264,6 +246,13 @@ I am especially looking for cases in which there is a mismatch between what the 
 This would signify that bots have ended up implementing guidelines and norms in distorted way, effectively creating constraints that no one wanted to have to begin with and turning them into the status quo.
 Furthermore, an analysis of established bot development frameworks such as pywikibot (\url{https://www.mediawiki.org/wiki/Manual:Pywikibot}), wikitools (\url{https://github.com/alexz-enwp/wikitools}) or Apibot (\url{apibot.zavinagi.org}) and their influence on prevalence of automated tasks is planned.
 Finally, I'd like to also propose recommendations for ethical code guidelines for developing algorithmic systems which could be included in bot development frameworks.
+
+\begin{comment}
+Claudia's paper:
+"“In both cases of algorithmic governance
+– software features and bots – making rules part of the infrastructure, to a certain extent, makes
+them harder to change and easier to enforce” (p. 87)"
+\end{comment}
 
 \section{Planned procedure}
 
@@ -358,7 +347,19 @@ tationally implemented."~\cite{Geiger2017}
 % algorithm -- was ist der Unterschied zwischen Bot und Algorithmus
 
 \subsection{Bot}
-siehe GeiHal2017
+siehe ~\cite{GeiHal2017}
+
+-What-Who is a bot? --> Bot Def!!
+"for us, bots are inextricably linked to their developers, rather than autonomous agents who can
+be studied independently of the people who develop and operate them. Speaking to this, many
+Wikipedia bot developers name their bot not after the task it does, but after themselves: CydeBot
+is run by a user named Cyde, Addbot is run by Adam Shoreland (whose username is Addshore),
+CyberBot is run by a user named Cyberpower678, Xqbot is run by a user named Xqt, and more."
+
+assemblages:
+"entirely different question to ask about the dynamics of conflict
+when we see bots as assemblages of code and a human developer/advocate, who is responsible for
+operating the bot in alignment with Wikipedia’s complex policy environment."
 
 \subsection{Algorithmic governance}
 
