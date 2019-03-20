@@ -409,7 +409,7 @@ thick description of different prototypical cases:
 Non-conflicts:
 - fixing double redirects (see paper for details):
   - task carried on by a lot of bots (code for that also provided in the pywikibot framework)
-- removing interwiki links? (since lining between language version got exported to Wikidata)
+- removing interwiki links? (since linking between language version got exported to Wikidata)
 - updating of article notification templates (page is protected from editing or has some issue; template removed when the issue is resolved)
 - moving categories
 - editing "per" justification: "single purpose bots that are written to implement a decision reached
@@ -953,7 +953,7 @@ speak of "encoded rules"
 * social: based primarily on communication; social norms are often formalized by
 written rules and guidelines
 * algorithmic: "techical infrastructure that enables users to access artifacts"
-"hat allows
+"That allows
 the community to communicate and coordinate their collective ac-
 tions to create those artifacts."
 
@@ -1030,7 +1030,10 @@ sion queue), and
 
 "Bots’ activities are often hidden from human editors [7] because
 their edits are automatically filtered from the article history log."
-//TODO: ist das immer noch so?
+//TODO: ist das immer noch so? Ich glaube tatsächlich nicht; Following entries found in the article's history https://en.wikipedia.org/w/index.php?title=Jamaica_Kincaid&action=history
+(cur | prev) 06:49, 27 July 2018‎ Josvebot (talk | contribs)‎ m . . (29,346 bytes) 0‎ . . (Fixing WP:CHECKWIKI #16: unicode contol character (and other minor general edits caused by AWB), replaced: →) (undo)
+(cur | prev) 17:16, 9 July 2018‎ Bender the Bot (talk | contribs)‎ m . . (29,346 bytes) +1‎ . . (→‎Early life: HTTP to HTTPS for Mother Jones, replaced: http://www.motherjones.com/ → https://www.motherjones.com/ using AWB) (undo)
+(cur | prev) 09:22, 19 June 2018‎ KolbertBot (talk | contribs)‎ m . . (29,345 bytes) +4‎ . . (Bot: HTTP→HTTPS (v485)) (undo)
 
 "Geiger and Ribes claim that
 the redistribution of work between human and non-human contrib-
@@ -1104,7 +1107,7 @@ are being used increasingly for governance purposes."
 //kommt es aus den Daten hervor, dass Bots früher eher für Content creation
 //genutzt wurden? Oder woher weiß man das?
 
-"olicies “that
+"Policies “that
 all users should normally follow” as well as guidelines that “outline
 best practices for following those standards in specific contexts”
 are not considered to be “hard-and-fast rules”" //vgl auch the Bureaucracy paper
@@ -1165,7 +1168,7 @@ code [26]."
 "Additionally, users take bot edits for granted, and they
 do not question them, which is reflected in their absence from the
 article edit log (in the normal mode)."
-// das ist doch anders rum: niemand hinterfragt sie, weil sie niemand sieht. 
+// das ist doch anders rum: niemand hinterfragt sie, weil sie niemand sieht.
 
 "Criteria that define which user can access a feature are again pro-
 vided by community consensus. As a result, governance via soft-
